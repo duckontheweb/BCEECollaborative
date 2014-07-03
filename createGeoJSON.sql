@@ -101,6 +101,7 @@ ADD COLUMN students_12 int;
 
 
 ---- Calculate total EE hrs. for a given grade
+---- NEED TO DEBUG THIS, LOOKS LIKE IT IS NOT GETTING ALL THE SCHOOLS
 
 UPDATE geom_outputs.allgradesJSON as json
 SET eehrs_p = ROUND(eehrs.total_hrs::numeric, 1)
