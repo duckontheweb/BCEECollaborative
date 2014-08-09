@@ -10,7 +10,7 @@
 //
 
 //Create elementary JSON object
-var elementaryJSON = {
+var schoolJSON = {
 	"type": "FeatureCollection",
 	                                                                                
 	"features": [
