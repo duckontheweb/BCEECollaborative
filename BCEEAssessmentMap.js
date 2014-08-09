@@ -155,7 +155,8 @@ $(window).ready(function() {
 			},
 
 			onEachFeature: function (feature, layer) {
-         		layer.bindPopup('<h3>' + feature.properties.school + '</h3><p>Total EE Hrs.: ' + feature.properties.eehrs_total + '<br /> Total Students: ' + feature.properties.students_total + '</p>'
+         		layer.bindPopup('<h4>' + feature.properties.school + '</h4><p class="tooltip-info">Total EE Hrs.: ' + feature.properties.eehrs_total + '<br /> Total Students: ' + feature.properties.students_total + 
+         			'<br /> Percent Free or Reduced Lunch: ' + (feature.properties.percent_frl*100) + '%' + '<br /> Percent People of Color: ' + (feature.properties.percent_poc*100) + '%' +'</p>'
          		);
          	}
 		});
