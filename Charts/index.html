@@ -13,15 +13,18 @@
 	<script src="http://code.highcharts.com/maps/modules/data.js"></script>
 	<div id="container">
 		<div id="desc">
-			<h2>Analysis of Program Length</h2>
+			<h2>Program Length Analysis</h2>
+			<p>Each category is inclusive on the upper end. For instance, the "0 - 1" category includes all programs up to and including 1 hour in length.</p>
+			<p><em>Click on an organization in the legend to toggle that data on and off.</em></p>
 		</div>
 		<div id="dropdown"></div>
 		<div id="chart"></div>
 	</div>
 
-	<script type="text/javascript" language="Javascript" src="./assets/js/models/chartModel.js"></script>
-	<script type="text/javascript" language="Javascript" src="./assets/js/collections/collection_template.js"></script>
-	<script type="text/javascript" language="Javascript" src="./assets/js/views/view_template.js"></script>
-	<script type="text/javascript" language="Javascript" src="./assets/js/eeChartsApp.js"></script>		
+	<script type="text/javascript" src="./assets/js/models/chartModel.js"></script>
+	<script type="text/javascript" src="./assets/js/views/chartView.js"></script>
+	<script type-"text/javascript" src="./assets/js/views/dropdownView.js"></script>
+	<script type="text/javascript" language="Javascript" src="./assets/js/eeChartsApp.js"></script>
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">		
 </body>
 </html>

@@ -1,8 +1,7 @@
 //chartModel.js
 
-var app = app || {};
 
-var app.chartModel = Backbone.Model.extend({
+var ChartModel = Backbone.Model.extend({
 	defaults: {
 		gradeCurrent: null,
 		chartValues: [],
