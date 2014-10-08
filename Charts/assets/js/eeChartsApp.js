@@ -6,7 +6,7 @@ var dataObject = {};
 $(document).ready(function() {
 
 	//root web path
-	var basepath = 'http://localhost:8888/BCEECollaborative/Charts/';
+	var basepath = 'http://www.duckontheweb.com/BCEECollaborative/Charts/';
 
 	//relative json path
 	pathJSON = 'assets/data/programLength.json';
