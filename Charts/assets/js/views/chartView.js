@@ -7,27 +7,36 @@ var ChartView = Backbone.View.extend({
 
 	initialize: function () {
 		this.prepdata();
-		this.model.on('change:grade', this.update, this);
+		this.model.on('change:gradeCurrent', this.prepdata, this);
+		this.model.on('change:chartValues', this.update, this);
 		this.render()
 	},
 
 	prepdata: function () {
 		var self = this;
-
-		self.model.set("chartValues", dataObject[self.model.get("gradeCurrent")])
+		var grade = self.model.get("gradeCurrent");
+		//self.model.set("yAxisMax", self.model.get("allData")[grade].max);
+		self.model.set("chartValues", self.model.get("allData")[grade]['data']);
+		console.dir(self.model.get("yAxisMax"));
 	},
 
 	update: function () {
+		var self = this;
 
+		var chartOptions = $(self.el).highcharts().options
+		var seriesUpdate = self.model.get("chartValues");
+		var maxUpdate = self.model.get("yAxisMax");
+		chartOptions.series = seriesUpdate;
+		//chartOptions.yAxis.max = maxUpdate;
+		console.dir(chartOptions.yAxis.max);
+		
+
+		$(self.el).highcharts().destroy();
+		$(self.el).highcharts(chartOptions);
 	},
 
 	render: function () {
 		var self = this;
-
-		console.log("categories")
-		console.dir(self.model.get("chartCategories"));
-		console.log("values")
-		console.dir(self.model.get("chartValues"));
 
 		var chart = $(self.el).highcharts({
 			chart: {
@@ -35,7 +44,7 @@ var ChartView = Backbone.View.extend({
 			},
 
 			title: {
-				text: 'Grade: ' + self.model.get("gradeCurrent")
+				text: null
 			},
 
 			xAxis: {
@@ -60,7 +69,7 @@ var ChartView = Backbone.View.extend({
 	                    color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
 	                }
 	            },
-	            max: self.model.get("yAxisMax")
+	            max: 450
 			},
 
 			plotOptions: {

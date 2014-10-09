@@ -53,7 +53,9 @@ if conn is not None:
         
         for i in range(len(breaks)-1):
             low = breaks[i]
-            top = breaks[i+1]      
+            top = breaks[i+1]
+            totalOrgHours = 0
+            breakMax = 0
             try:
                 #Get total hours for each bin
                 cur.execute('SELECT sum(hours) FROM year2013.programlength WHERE (grade = %s ' +
@@ -63,9 +65,9 @@ if conn is not None:
                     totalHours = 0
 
                 #set new max value if appropriate
-                if totalHours > maxValue:
-                    maxValue = totalHours
-                totalOrgHours = 0
+                if totalHours > breakMax:
+                    breakMax = totalHours
+             
             except Exception, e:
                 print("could not get total hours for each bin")
                 print(e)
@@ -123,7 +125,12 @@ if conn is not None:
                     
             #Add 'Other Orgs' category
             data[grade]['Other Orgs']['data'].append(round(totalHours - totalOrgHours, 1)) 
-            data[grade]['max'] = maxValue
+            if breakMax > maxValue:
+                maxValue = breakMax
+        
+        data[grade]['max'] = maxValue
+        maxValue = 0
+            
     del cur
 else:
     print("Unable to connect to {0} on server {1}".format(db, hst))

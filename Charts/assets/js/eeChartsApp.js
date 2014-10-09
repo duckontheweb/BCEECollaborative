@@ -1,7 +1,7 @@
 //eeChartsApp.js
 
 var dataObject = {};
-maxList = {};
+gradesList = []
 
 
 $(document).ready(function() {
@@ -15,13 +15,14 @@ $(document).ready(function() {
 	
 	//read json file
 	$.getJSON(basepath + pathJSON, function(data) {
-		
+	
 		//for each element (grade or categories)
 		$.each(data, function(key1, value1) {
 			if (key1 == "categories") {
 				dataObject.categories = value1;
 			} else {
-				dataObject[key1] = [];
+				gradesList.push({'grade': key1});
+				dataObject[key1] = {'data': []};
 				
 				//for each organization
 				$.each(value1, function(key2, value2) {
@@ -29,26 +30,45 @@ $(document).ready(function() {
 						value2['name'] = 'Thorne 4th Gr. Field Trips';
 					}
 					if (key2 == 'max') {
-						maxList[key1] = value2;
+						dataObject[key1]['max'] = value2;
+					} else if (key2 == 'total') {
+						dataObject[key1]['total'] = value2;
 					} else {
-						dataObject[key1].push(value2);
+						var nonZero = false;
+						//console.dir(value2);
+						for (i in value2['data']) {
+							if (value2['data'][i] != 0) {
+								nonZero = true;
+							}
+						}
+						if (nonZero) {
+							dataObject[key1]['data'].push(value2);
+						}
+						var nonZero = false;
 					}
 				})
 			}		
 		})
+		//console.dir(dataObject);
 
 		var chartModel = new ChartModel({
 			gradeCurrent: '4',
-			chartCategories: data.categories,
-			yAxisMax: data['4'].max
+			chartCategories: dataObject.categories,
+			gradesList: gradesList,
+			allData: dataObject
 		});
 
 		var chartView = new ChartView({
 			model: chartModel
 		})
 
-		console.dir(dataObject);
+		var selectView = new DropdownView({
+			model: chartModel
+		})
 
+		//console.dir(dataObject);
+		//console.dir(gradesList);
+		console.dir(chartModel.get("allData"))
 		
 	});
 });

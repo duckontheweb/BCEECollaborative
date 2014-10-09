@@ -11,3 +11,14 @@
 	height: 500px;
 	margin: auto;
 }
+
+#dropdown {
+	height: 50px;
+	width: 150px;
+	margin: auto;
+}
+
+#valVar {
+	width: 100px;
+	height: 140px;
+}
