@@ -31,6 +31,9 @@ if conn is not None:
     
     for grade in grades:
         
+        # max value metric   
+        maxValue = 0
+    
         #Set up data object for each grade
         data[grade] = {}
         data[grade]['Other Orgs'] = {'name': 'Other Orgs', 'data': []}
@@ -47,7 +50,6 @@ if conn is not None:
                     else:
                         programString = organization[0] + ': ' + 'All Other Programs'
                         data[grade][programString] = {'name': programString, 'data': []}
-#        print(grade)
         
         for i in range(len(breaks)-1):
             low = breaks[i]
@@ -59,6 +61,10 @@ if conn is not None:
                 totalHours = cur.fetchone()[0]
                 if totalHours is None:
                     totalHours = 0
+
+                #set new max value if appropriate
+                if totalHours > maxValue:
+                    maxValue = totalHours
                 totalOrgHours = 0
             except Exception, e:
                 print("could not get total hours for each bin")
@@ -78,7 +84,6 @@ if conn is not None:
                         
                 #Test for number of programs
                 programs = organization[1]
-                print(organization[0] + "- " + str(len(programs)))
                 
                 if (len(programs) == 1 ) & (programs[0] == 'All'):
                     data[grade][organization[0]]['data'].append(orgHours)
@@ -117,8 +122,8 @@ if conn is not None:
                         totalOrgHours += orgHours
                     
             #Add 'Other Orgs' category
-            data[grade]['Other Orgs']['data'].append(round(totalHours - totalOrgHours, 1))
-            
+            data[grade]['Other Orgs']['data'].append(round(totalHours - totalOrgHours, 1)) 
+            data[grade]['max'] = maxValue
     del cur
 else:
     print("Unable to connect to {0} on server {1}".format(db, hst))

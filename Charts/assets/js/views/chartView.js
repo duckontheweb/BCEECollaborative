@@ -24,7 +24,9 @@ var ChartView = Backbone.View.extend({
 	render: function () {
 		var self = this;
 
+		console.log("categories")
 		console.dir(self.model.get("chartCategories"));
+		console.log("values")
 		console.dir(self.model.get("chartValues"));
 
 		var chart = $(self.el).highcharts({
@@ -57,7 +59,8 @@ var ChartView = Backbone.View.extend({
 	                    fontWeight: 'bold',
 	                    color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
 	                }
-	            }
+	            },
+	            max: self.model.get("yAxisMax")
 			},
 
 			plotOptions: {

@@ -5,6 +5,7 @@ var ChartModel = Backbone.Model.extend({
 	defaults: {
 		gradeCurrent: null,
 		chartValues: [],
-		chartCategories: []
+		chartCategories: [],
+		yAxisMax: null
 	}
 });

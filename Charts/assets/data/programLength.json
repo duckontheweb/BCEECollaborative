@@ -1,17 +1,5 @@
 {
     "11": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 24.25, 
@@ -23,6 +11,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 30.0, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -62,18 +63,6 @@
         }
     }, 
     "10": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 23.25, 
@@ -85,6 +74,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 30.0, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -124,18 +126,6 @@
         }
     }, 
     "12": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 24.75, 
@@ -147,6 +137,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 30.0, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -186,18 +189,6 @@
         }
     }, 
     "K": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 93.75, 
@@ -209,6 +200,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 134.65, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -248,18 +252,6 @@
         }
     }, 
     "1": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 150.0, 
@@ -271,6 +263,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 206.0, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -310,18 +315,6 @@
         }
     }, 
     "P": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 43.0, 
@@ -333,6 +326,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 81.95, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -372,18 +378,6 @@
         }
     }, 
     "3": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 72.75, 
@@ -395,6 +389,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 149.2, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -434,18 +441,6 @@
         }
     }, 
     "2": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 74.75, 
@@ -457,6 +452,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 171.0, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -496,18 +504,6 @@
         }
     }, 
     "5": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                3.0, 
-                8.0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 93.0, 
@@ -519,6 +515,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 392.0, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                3.0, 
+                8.0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -558,18 +567,6 @@
         }
     }, 
     "4": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                4.0, 
-                39.0, 
-                260.0, 
-                0, 
-                10.0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 91.5, 
@@ -581,6 +578,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 402.5, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                4.0, 
+                39.0, 
+                260.0, 
+                0, 
+                10.0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -620,18 +630,6 @@
         }
     }, 
     "7": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 35.5, 
@@ -643,6 +641,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 41.0, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -682,18 +693,6 @@
         }
     }, 
     "6": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 38.25, 
@@ -705,6 +704,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 47.25, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -744,18 +756,6 @@
         }
     }, 
     "9": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 21.75, 
@@ -767,6 +767,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 30.0, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
@@ -806,18 +819,6 @@
         }
     }, 
     "8": {
-        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
-            "data": [
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0, 
-                0
-            ], 
-            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
-        }, 
         "Eco-Cycle": {
             "data": [
                 30.5, 
@@ -829,6 +830,19 @@
                 0
             ], 
             "name": "Eco-Cycle"
+        }, 
+        "max": 36.8, 
+        "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip": {
+            "data": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "name": "Thorne Nature Experience: Thorne BVSD 4th grade Field Trip"
         }, 
         "CalWood": {
             "data": [
