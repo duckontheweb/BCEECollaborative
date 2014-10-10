@@ -31,12 +31,13 @@ if conn is not None:
     
     for grade in grades:
         
-        # max value metric   
-        maxValue = 0
-    
         #Set up data object for each grade
         data[grade] = {}
         data[grade]['Other Orgs'] = {'name': 'Other Orgs', 'data': []}
+        data[grade]['max'] = 0
+        data[grade]['totals'] = []
+        
+        #Create objects within data for each organization/programs combo
         for organization in organizations:
             if (len(organization[1]) == 1) & ('All' in organization[1]):
                 data[grade][organization[0]] = {'name': organization[0], 'data': []}
@@ -45,17 +46,17 @@ if conn is not None:
                     if program != 'All':
                         programString = organization[0] + ': ' + program
                         data[grade][programString] = {'name': programString, 'data': []}
-                    elif program == 'Thorne BVSD 4th grade Field Trip':
-                        programString = organization[0] + '4th Gr. Field Trip'
                     else:
                         programString = organization[0] + ': ' + 'All Other Programs'
                         data[grade][programString] = {'name': programString, 'data': []}
         
+        #Populate data for each bin
         for i in range(len(breaks)-1):
             low = breaks[i]
             top = breaks[i+1]
             totalOrgHours = 0
-            breakMax = 0
+            totalHours = 0
+            
             try:
                 #Get total hours for each bin
                 cur.execute('SELECT sum(hours) FROM year2013.programlength WHERE (grade = %s ' +
@@ -63,11 +64,9 @@ if conn is not None:
                 totalHours = cur.fetchone()[0]
                 if totalHours is None:
                     totalHours = 0
-
-                #set new max value if appropriate
-                if totalHours > breakMax:
-                    breakMax = totalHours
-             
+                if totalHours > data[grade]['max']:
+                    data[grade]['max'] = totalHours
+                data[grade]['totals'].append(totalHours)
             except Exception, e:
                 print("could not get total hours for each bin")
                 print(e)
@@ -80,6 +79,7 @@ if conn is not None:
                     orgHours = cur.fetchone()[0]                    
                     if orgHours is None:
                         orgHours = 0
+                    totalOrgHours += orgHours
                 except Exception, e:
                     print("Could not get total hours for organization {0}".format(organization[0]))
                     print(e)
@@ -89,7 +89,6 @@ if conn is not None:
                 
                 if (len(programs) == 1 ) & (programs[0] == 'All'):
                     data[grade][organization[0]]['data'].append(orgHours)
-                    totalOrgHours += orgHours
                 elif (len(programs) > 1) & ('All' in programs):
                     indProgHrs = 0
                     for program in programs:
@@ -104,11 +103,10 @@ if conn is not None:
                             if progHours is None:
                                 progHours = 0
                             data[grade][programString]['data'].append(progHours)
-                            totalOrgHours += progHours
                             indProgHrs += progHours
                     programString = organization[0] + ': All Other Programs'
 
-                    data[grade][programString]['data'].append(round(orgHours - indProgHrs))
+                    data[grade][programString]['data'].append(orgHours - indProgHrs)
                 else:
                     for program in programs:
                        
@@ -120,17 +118,9 @@ if conn is not None:
                         orgHours = cur.fetchone()[0]
                         if orgHours is None:
                             orgHours = 0
-                        data[grade][programString]['data'].append(round(orgHours, 1))
-                        totalOrgHours += orgHours
-                    
-            #Add 'Other Orgs' category
-            data[grade]['Other Orgs']['data'].append(round(totalHours - totalOrgHours, 1)) 
-            if breakMax > maxValue:
-                maxValue = breakMax
-        
-        data[grade]['max'] = maxValue
-        maxValue = 0
-            
+                        data[grade][programString]['data'].append(orgHours)       
+            #Add 'Other Orgs' data
+            data[grade]['Other Orgs']['data'].append(totalHours - totalOrgHours)
     del cur
 else:
     print("Unable to connect to {0} on server {1}".format(db, hst))

@@ -31,8 +31,8 @@ $(document).ready(function() {
 					}
 					if (key2 == 'max') {
 						dataObject[key1]['max'] = value2;
-					} else if (key2 == 'total') {
-						dataObject[key1]['total'] = value2;
+					} else if (key2 == 'totals') {
+						dataObject[key1]['totals'] = value2;
 					} else {
 						var nonZero = false;
 						//console.dir(value2);
@@ -66,9 +66,6 @@ $(document).ready(function() {
 			model: chartModel
 		})
 
-		//console.dir(dataObject);
-		//console.dir(gradesList);
-		console.dir(chartModel.get("allData"))
 		
 	});
 });

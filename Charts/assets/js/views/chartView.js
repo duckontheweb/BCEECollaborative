@@ -15,9 +15,8 @@ var ChartView = Backbone.View.extend({
 	prepdata: function () {
 		var self = this;
 		var grade = self.model.get("gradeCurrent");
-		//self.model.set("yAxisMax", self.model.get("allData")[grade].max);
+		self.model.set("yAxisMax",self.model.get("allData")[grade].max);
 		self.model.set("chartValues", self.model.get("allData")[grade]['data']);
-		console.dir(self.model.get("yAxisMax"));
 	},
 
 	update: function () {
@@ -25,12 +24,11 @@ var ChartView = Backbone.View.extend({
 
 		var chartOptions = $(self.el).highcharts().options
 		var seriesUpdate = self.model.get("chartValues");
-		var maxUpdate = self.model.get("yAxisMax");
+		var maxUpdate = 100 * Math.ceil(self.model.get("yAxisMax")/100);
 		chartOptions.series = seriesUpdate;
-		//chartOptions.yAxis.max = maxUpdate;
-		console.dir(chartOptions.yAxis.max);
+		chartOptions.yAxis[0].max = maxUpdate;
 		
-
+		// console.dir(chartOptions);
 		$(self.el).highcharts().destroy();
 		$(self.el).highcharts(chartOptions);
 	},
@@ -64,12 +62,14 @@ var ChartView = Backbone.View.extend({
 				},
 				stackLabels: {
 	                enabled: true,
-	                style: {
+	                style: 
+	                {
 	                    fontWeight: 'bold',
 	                    color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
 	                }
 	            },
-	            max: 450
+	            min: 0,
+	            max: 100 * Math.ceil(self.model.get("yAxisMax")/100)
 			},
 
 			plotOptions: {

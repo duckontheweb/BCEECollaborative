@@ -40,27 +40,36 @@
         "Other Orgs": {
             "data": [
                 5.5, 
-                5.0, 
+                4.95, 
+                0, 
+                0, 
                 0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
+                0, 
                 0.0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            29.75, 
+            4.95, 
+            0, 
+            0, 
+            30.0, 
+            0, 
+            16.0
+        ]
     }, 
     "10": {
         "Eco-Cycle": {
@@ -103,27 +112,36 @@
         "Other Orgs": {
             "data": [
                 6.5, 
-                7.5, 
+                7.45, 
+                0, 
+                0, 
                 0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
+                0, 
                 0.0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            29.75, 
+            7.45, 
+            0, 
+            0, 
+            30.0, 
+            0, 
+            16.0
+        ]
     }, 
     "12": {
         "Eco-Cycle": {
@@ -166,27 +184,36 @@
         "Other Orgs": {
             "data": [
                 4.5, 
-                3.5, 
+                3.45, 
+                0, 
+                0, 
                 0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
+                0, 
                 0.0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            29.25, 
+            3.45, 
+            0, 
+            0, 
+            30.0, 
+            0, 
+            16.0
+        ]
     }, 
     "K": {
         "Eco-Cycle": {
@@ -228,28 +255,37 @@
         }, 
         "Other Orgs": {
             "data": [
-                40.9, 
-                34.5, 
-                69.0, 
-                4.0, 
-                5.0, 
+                40.900000000000006, 
+                32.5, 
+                15.0, 
                 0.0, 
-                0.0
+                5.0, 
+                0, 
+                0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
+                0, 
                 2.0, 
                 54.0, 
                 4.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            134.65, 
+            53.25, 
+            69.0, 
+            4.0, 
+            5.0, 
+            0, 
+            0
+        ]
     }, 
     "1": {
         "Eco-Cycle": {
@@ -292,27 +328,36 @@
         "Other Orgs": {
             "data": [
                 56.0, 
-                39.0, 
-                117.0, 
-                20.0, 
-                0.0, 
-                0.0, 
-                0.0
+                37.0, 
+                18.0, 
+                8.0, 
+                0, 
+                0, 
+                0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
+                0, 
                 2.0, 
                 99.0, 
                 12.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            206.0, 
+            131.5, 
+            117.0, 
+            20.0, 
+            0, 
+            0, 
+            0
+        ]
     }, 
     "P": {
         "Eco-Cycle": {
@@ -354,28 +399,37 @@
         }, 
         "Other Orgs": {
             "data": [
-                39.0, 
+                38.95, 
                 12.0, 
-                39.0, 
-                8.0, 
-                5.0, 
+                3.0, 
                 0.0, 
-                0.0
+                5.0, 
+                0, 
+                0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
-                0.0, 
+                0, 
+                0, 
                 36.0, 
                 8.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            81.95, 
+            22.0, 
+            39.0, 
+            8.0, 
+            5.0, 
+            0, 
+            0
+        ]
     }, 
     "3": {
         "Eco-Cycle": {
@@ -417,10 +471,10 @@
         }, 
         "Other Orgs": {
             "data": [
-                76.4, 
-                20.8, 
-                129.0, 
-                32.0, 
+                76.44999999999999, 
+                18.849999999999994, 
+                9.0, 
+                12.0, 
                 5.0, 
                 12.0, 
                 0.0
@@ -429,16 +483,25 @@
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
+                0, 
                 2.0, 
                 120.0, 
                 20.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            149.2, 
+            130.6, 
+            129.0, 
+            32.0, 
+            120.0, 
+            20.0, 
+            16.0
+        ]
     }, 
     "2": {
         "Eco-Cycle": {
@@ -481,27 +544,36 @@
         "Other Orgs": {
             "data": [
                 58.0, 
-                111.0, 
-                135.0, 
-                16.0, 
+                109.0, 
+                27.0, 
+                8.0, 
                 5.0, 
-                0.0, 
-                0.0
+                0, 
+                0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
+                0, 
                 2.0, 
                 108.0, 
                 8.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            132.75, 
+            171.0, 
+            135.0, 
+            16.0, 
+            40.0, 
+            0, 
+            0
+        ]
     }, 
     "5": {
         "Eco-Cycle": {
@@ -544,27 +616,36 @@
         "Other Orgs": {
             "data": [
                 53.5, 
-                26.9, 
-                90.0, 
+                26.900000000000006, 
                 12.0, 
+                8.0, 
                 0.0, 
-                0.0, 
+                0, 
                 0.0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
-                0.0, 
+                0, 
+                0, 
                 78.0, 
                 4.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            146.5, 
+            87.9, 
+            99.0, 
+            72.0, 
+            70.0, 
+            0, 
+            392.0
+        ]
     }, 
     "4": {
         "Eco-Cycle": {
@@ -608,8 +689,8 @@
             "data": [
                 57.0, 
                 24.0, 
-                96.0, 
-                63.5, 
+                12.0, 
+                35.5, 
                 0.0, 
                 120.0, 
                 0.0
@@ -618,16 +699,25 @@
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
+                0, 
                 0.0, 
                 84.0, 
                 28.0, 
+                0, 
                 0.0, 
-                0.0, 
-                0.0
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            148.5, 
+            83.0, 
+            150.0, 
+            402.5, 
+            100.0, 
+            130.0, 
+            48.0
+        ]
     }, 
     "7": {
         "Eco-Cycle": {
@@ -673,24 +763,33 @@
                 6.0, 
                 0.0, 
                 12.0, 
-                0.0, 
+                0, 
                 6.0, 
-                0.0
+                0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            41.0, 
+            6.0, 
+            6.0, 
+            12.0, 
+            0, 
+            6.0, 
+            0
+        ]
     }, 
     "6": {
         "Eco-Cycle": {
@@ -734,26 +833,35 @@
             "data": [
                 9.0, 
                 18.0, 
-                0.0, 
+                0, 
                 4.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            47.25, 
+            45.0, 
+            0, 
+            4.0, 
+            0, 
+            0, 
+            0
+        ]
     }, 
     "9": {
         "Eco-Cycle": {
@@ -796,27 +904,36 @@
         "Other Orgs": {
             "data": [
                 4.5, 
-                3.5, 
+                3.45, 
+                0, 
+                0, 
                 0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
+                0, 
                 0.0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            26.25, 
+            3.45, 
+            0, 
+            0, 
+            30.0, 
+            0, 
+            16.0
+        ]
     }, 
     "8": {
         "Eco-Cycle": {
@@ -858,28 +975,37 @@
         }, 
         "Other Orgs": {
             "data": [
-                6.3, 
+                6.299999999999997, 
                 8.0, 
                 0.0, 
                 8.0, 
-                0.0, 
+                0, 
                 7.5, 
-                0.0
+                0
             ], 
             "name": "Other Orgs"
         }, 
         "Thorne Nature Experience: All Other Programs": {
             "data": [
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
             ], 
             "name": "Thorne Nature Experience: All Other Programs"
-        }
+        }, 
+        "totals": [
+            36.8, 
+            15.5, 
+            6.0, 
+            8.0, 
+            0, 
+            7.5, 
+            0
+        ]
     }, 
     "categories": [
         "0-1", 
