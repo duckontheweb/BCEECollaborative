@@ -24,7 +24,7 @@ var ChartView = Backbone.View.extend({
 
 		var chartOptions = $(self.el).highcharts().options
 		var seriesUpdate = self.model.get("chartValues");
-		var maxUpdate = 100 * Math.ceil(self.model.get("yAxisMax")/100);
+		var maxUpdate = 50 * Math.ceil(self.model.get("yAxisMax")/50);
 		chartOptions.series = seriesUpdate;
 		chartOptions.yAxis[0].max = maxUpdate;
 		
@@ -69,7 +69,7 @@ var ChartView = Backbone.View.extend({
 	                }
 	            },
 	            min: 0,
-	            max: 100 * Math.ceil(self.model.get("yAxisMax")/100)
+	            max: 50 * Math.ceil(self.model.get("yAxisMax")/50)
 			},
 
 			plotOptions: {

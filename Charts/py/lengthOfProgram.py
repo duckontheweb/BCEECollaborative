@@ -59,7 +59,7 @@ if conn is not None:
             
             try:
                 #Get total hours for each bin
-                cur.execute('SELECT sum(hours) FROM year2013.programlength WHERE (grade = %s ' +
+                cur.execute('SELECT sum(totalhours) FROM temp.rc_types WHERE (grade = %s ' +
                 'AND hours > %s AND hours <= %s)', (grade, low, top, ))
                 totalHours = cur.fetchone()[0]
                 if totalHours is None:
@@ -74,7 +74,7 @@ if conn is not None:
             #Get total hours per organization for each bin
             for organization in organizations:
                 try:
-                    cur.execute('SELECT sum(hours) FROM year2013.programlength WHERE (grade = %s ' + 
+                    cur.execute('SELECT sum(totalhours) FROM temp.rc_types WHERE (grade = %s ' + 
                         'AND hours > %s AND hours <= %s AND organization = %s)', (grade, low, top, organization[0], ))
                     orgHours = cur.fetchone()[0]                    
                     if orgHours is None:
@@ -97,7 +97,7 @@ if conn is not None:
                             #Create ID string for organization and program
                             programString = organization[0] + ': ' + program
                             
-                            cur.execute('SELECT sum(hours) FROM year2013.programlength WHERE (grade = %s ' + 
+                            cur.execute('SELECT sum(totalhours) FROM temp.rc_types WHERE (grade = %s ' + 
                             'AND hours > %s AND hours <= %s AND organization = %s AND program = %s)', (grade, low, top, organization[0], program, ))
                             progHours = cur.fetchone()[0]
                             if progHours is None:
@@ -113,7 +113,7 @@ if conn is not None:
                        #Create ID string for organization and program
                         programString = organization[0] + ': ' + program
                         
-                        cur.execute('SELECT sum(hours) FROM year2013.programlength WHERE (grade = %s ' + 
+                        cur.execute('SELECT sum(totalhours) FROM temp.rc_types WHERE (grade = %s ' + 
                         'AND hours > %s AND hours <= %s AND organization = %s AND program = %s)', (grade, low, top, organization[0], program, ))
                         orgHours = cur.fetchone()[0]
                         if orgHours is None:
