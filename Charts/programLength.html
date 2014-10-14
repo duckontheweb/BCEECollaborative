@@ -2,48 +2,44 @@
 
 <html>
 <head>
-	<title>BCEE Assessment 2013 | Analysis</title>
+	<title>Analysis | Length of Program</title>
 	
 	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/overallMain.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/programLengthMain.css">
 </head>
 <body>
-	<!--<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
 	<script src="http://code.highcharts.com/highcharts.js"></script>
-	<script src="http://code.highcharts.com/maps/modules/data.js"></script>-->
+	<script src="http://code.highcharts.com/maps/modules/data.js"></script>
 
-	<script src="http://localhost:8888/jsLibraries/jQuery/jquery-1.11.1.min.js"></script>
+	<!--<script src="http://localhost:8888/jsLibraries/jQuery/jquery-1.11.1.min.js"></script>
 	<script src="http://localhost:8888/jsLibraries/jQuery/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
 	<script src="http://localhost:8888/jsLibraries/Underscore/underscore-min.js"></script>
 	<script src="http://localhost:8888/jsLibraries/Handlebars/handlebars-v1.3.0.js"></script>
 	<script src="http://localhost:8888/jsLibraries/Backbone/backbone-1.1.2.min.js"></script>
 	<script src="http://localhost:8888/jsLibraries/Highcharts-4.0.3/js/highcharts.js"></script>
-	<script src="http://localhost:8888/jsLibraries/Highcharts-4.0.3/js/modules/data.js"></script>
+	<script src="http://localhost:8888/jsLibraries/Highcharts-4.0.3/js/modules/data.js"></script>-->
 
 
 
 	<div id="container">
-		<nav id="themes-nav">
-			<div id="program-length" class="nav-button" onclick="changeTheme(this.id)">Program Length</div>
-		</nav>
-		<div id="main">
-			<div id="filters">
-			</div>
-
-			<div id="display">
-				<div id="chart"></div>
-			</div>
+		<div id="desc">
+			<h2>Program Length Analysis</h2>
+			<p>Each category is inclusive on the upper end. For instance, the "0 - 1" category includes all programs up to and including 1 hour in length.</p>
+			<p><em>Click on an organization in the legend to toggle that data on and off.</em></p>
 		</div>
+		<div id="dropdown">Grade: <select name="valVar" id="valVar"></select></div>
+		<div id="chart"></div>
 	</div>
 
-	<script type="text/javascript" src="./assets/js/models/overallModel.js"></script>
-	<script type="text/javascript" src="./assets/js/views/overallChartView.js"></script>
-	<script type-"text/javascript" src="./assets/js/views/overallDropdownView.js"></script>
-	<script type="text/javascript" language="Javascript" src="./assets/js/overallApp.js"></script>
+	<script type="text/javascript" src="./assets/js/models/programLengthModel.js"></script>
+	<script type="text/javascript" src="./assets/js/views/programLengthChartView.js"></script>
+	<script type-"text/javascript" src="./assets/js/views/programLengthDropdownView.js"></script>
+	<script type="text/javascript" language="Javascript" src="./assets/js/programLengthApp.js"></script>
 	
 	<script type="text/template" id="dropdown-template">
 		{{#this}}
