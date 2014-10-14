@@ -3,14 +3,20 @@ body {
 }
 
 #map {
-	width: 600px;
-	height: 450px;
+	width: 900px;
+	height: 600px;
+	display: inline-block;
 }
 
 #info-box {
-	width: 200px;
-	height: 450px;
-	border: 1px solid black;
+	width: 350px;
+	height: 600px;
+	border: 1px solid lightgray;
+	display: inline-block;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
 }
 
 #container {
