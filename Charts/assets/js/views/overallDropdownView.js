@@ -7,6 +7,8 @@ var SchoolDropdown = Backbone.View.extend({
 
 	render: function () {
 		var self = this;
-		$(self.el).selectmenu();
+
+		
+		//$(self.el).selectmenu();
 	}
 })
