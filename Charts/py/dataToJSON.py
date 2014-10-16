@@ -15,11 +15,15 @@ pw = 'password'
 schema = 'year2013'
 table = 'resourceapplications'
 
-jsonArray = []
+jsonObject = {'data': []}
+
+orgField = 'organization'
+organizations = []
+schoolField = 'school'
+schools = []
+
 outputJSON = r'/Users/Shared/htdocs/BCEECollaborative/Charts/assets/data/overallData.json'
 
-fieldList = []
-gidList = []
 # Open connection to database
 try:
     conn = ps.connect(host=hst, user=usr, password=pw, dbname=db)
@@ -31,53 +35,33 @@ if conn is not None:
     # Create cursor
     cur = conn.cursor()
     
-    try:
-        # Get column names
-        columnsSQL = "SELECT column_name FROM information_schema.columns WHERE (table_schema = '" + \
-        schema + "' AND table_name = '" + table + "');"  
-        cur.execute(columnsSQL)
-        
-        # Populate fields list
-        while True:
-            field = cur.fetchone()
-            if field is None:
-                break
-            fieldList.append(field[0])
-        
-    except Exception, e:
-        print('Could not get column names from {0}'.format(table))
-        print(e)
+    # Create SQL string
+    SQL = 'SELECT row_to_json(' + table + ') FROM ' + schema + '.' + table + ';'
+    cur.execute(SQL)
     
-    try:
-        # Get gid values
-        gidSQL = 'SELECT DISTINCT ON(gid) gid FROM ' + schema + '.' + table + ';'
-        cur.execute(gidSQL)
-        
-        #Populate gid list
-        while True:
-            gidValue = cur.fetchone()
-            if gidValue is None:
-                break
-            gidList.append(gidValue[0])
-        
-    except Exception, e:
-        print('Could not get gid values from {0}'.format(table))
-        print(e)
-    
-    # Get each row and create key-value pair in data object
-    for gidValue in gidList:
-        row = {}
-        for field in fieldList:
-            selectSQL = 'SELECT ' + field + ' FROM ' + schema + '.' + table + ' WHERE gid = ' + str(gidValue) + ';'
-            cur.execute(selectSQL)
-            value = cur.fetchone()[0]
-            row[field] = value
-        jsonArray.append(row)
-         
-                
-   
+    # Loop through all JSON rows and add to object
+    while True:
+        row = cur.fetchone()
+        if row is None:
+            break
+        jsonObject['data'].append(row[0])
+
+# Populate list of organizations
+for row in jsonObject['data']:
+    if row[orgField] not in organizations:
+        organizations.append(row[orgField])
+jsonObject['organizations'] = organizations
+
+# Populate list of schools
+for row in jsonObject['data']:
+    if row[schoolField] not in schools:
+        schools.append(row[schoolField])
+jsonObject['schools'] = schools
+
+# Write JSON object to file
 with open(outputJSON, 'w') as outfile:
     json.dump(jsonObject, outfile, indent = 4)
     
     
+
 
