@@ -4,17 +4,21 @@
 <head>
 	<title>BCEE Assessment 2013 | Analysis</title>
 	
-	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" src="http://localhost:8888/jsLibraries/jQuery/jquery-ui-1.11.1.custom/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" src="http://localhost:8888/jsLibraries/jQuery/jquery-ui-1.11.1.custom/jquery-ui.structure.css">
+	<link rel="stylesheet" type="text/css" src="http://localhost:8888/jsLibraries/jQuery/jquery-ui-1.11.1.custom/jquery-ui.theme.min.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/overallMain.css">
 </head>
 <body>
-	<!--<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
 	<script src="http://code.highcharts.com/highcharts.js"></script>
-	<script src="http://code.highcharts.com/maps/modules/data.js"></script>-->
+	<script src="http://code.highcharts.com/maps/modules/data.js"></script>
+	-->
 
 	<script src="http://localhost:8888/jsLibraries/jQuery/jquery-1.11.1.min.js"></script>
 	<script src="http://localhost:8888/jsLibraries/jQuery/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
@@ -28,10 +32,25 @@
 
 	<div id="container">
 		<nav id="themes-nav">
-			<div id="program-length" class="nav-button" onclick="changeTheme(this.id)">Program Length</div>
+			<div id="program-length" class="nav-button" onclick="changeTheme(this.id)">
+				<h4\>Program <br/>Length</h4>
+			</div>
 		</nav>
 		<div id="main">
 			<div id="filters">
+				<h2>Filters</h2>
+				<div id="dropdown">
+					<h3>School:</h3> <br/>
+					<select name="school" id="school-dropdown"></select>
+				</div>
+				<div id="dropdown">
+					<h3>Grouped By:</h3> <br/>
+					<select name="first-group" id="first-group-dropdown"></select>
+				</div>
+				<div id="dropdown">
+					<h3>And By:</h3>	 <br/>
+					<select name="second-group" id="second-group-dropdown"></select>
+				</div>
 			</div>
 
 			<div id="display">
