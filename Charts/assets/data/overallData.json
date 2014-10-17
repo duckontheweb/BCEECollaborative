@@ -1,95 +1,365 @@
 {
     "schools": [
-        "University Hill Elementary School", 
-        "Lafayette Elementary School", 
-        "Niwot Elementary School", 
-        "Horizons K-8 School", 
-        "Foothill Elementary School", 
-        "Red Hawk Elementary", 
-        "Burlington Elementary School", 
-        "Eagle Crest Elementary School", 
-        "Birch Elementary School", 
-        "Central Elementary School", 
-        "Manhattan Middle School Of The Arts And Academics", 
-        "Bear Creek Elementary School", 
-        "Kohl Elementary School", 
-        "Emerald Elementary School", 
-        "Loma Linda Elementary School", 
-        "Lyons Elementary School", 
-        "Rocky Mountain Elementary School", 
-        "Timberline PK-8", 
-        "Fireside Elementary School", 
-        "Sanchez Elementary School", 
-        "Centennial Elementary", 
-        "Mesa Elementary School", 
-        "Coal Creek Elementary School", 
-        "Community Montessori School", 
-        "Heatherwood Elementary School", 
-        "Mountain View Elementary School", 
-        "Boulder Community School/Integrated Studies", 
-        "Pioneer Bilingual Elementary School", 
-        "Black Rock Elementary", 
-        "Ryan Elementary School", 
-        "Columbine Elementary School (BVSD)", 
-        "Indian Peaks Elementary School", 
-        "Louisville Elementary School", 
-        "Nederland Elementary School", 
-        "Eisenhower Elementary School", 
-        "Whittier Elementary School", 
-        "Spangler Elementary School", 
-        "Columbine Elementary School (SVVSD)", 
-        "Flagstaff Charter Academy", 
-        "Crest View Elementary School", 
-        "Centennial Middle School", 
-        "Monarch K-8 School", 
-        "Sunset Middle School", 
-        "Longmont Estates Elementary School", 
-        "Alpine Elementary School", 
-        "Mapleton Early Childhood Center", 
-        "Superior Elementary School", 
-        "High Peaks Elementary School", 
-        "Douglass Elementary School", 
-        "Hygiene Elementary School", 
-        "Coal Ridge Middle School", 
-        "Mead Elementary School", 
-        "Prairie Ridge Elementary School", 
-        "St. Vrain Community Montossori School", 
-        "Boulder Preparatory High School", 
-        "Aspen Creek K-8 School", 
-        "Angevine Middle School", 
-        "New Vista High School", 
-        "Eldorado K-8 School", 
-        "Casey Middle School", 
-        "Altona Middle School", 
-        "Heritage Middle School", 
-        "Lyons Middle/Senior High School", 
-        "Fall River Elementary School", 
-        "Blue Mountain Elementary", 
-        "Mead High School", 
-        "Erie Elementary School", 
-        "Peak To Peak Charter School", 
-        "Flatirons Elementary School", 
-        "Niwot High School", 
-        "Westview Middle School", 
-        "Creekside Elementary School at Martin Park", 
-        "Broomfield Heights Middle School", 
-        "Boulder High School", 
-        "Centaurus High School", 
-        "Longmont High School", 
-        "Northridge Elementary School", 
-        "Sanborn Elementary School", 
-        "Legacy Elementary School", 
-        "Summit Middle Charter School", 
-        "Erie Middle School", 
-        "Longs Peak Middle School", 
-        "Trail Ridge Middle School", 
-        "Imagine Charter", 
-        "Frederick Elementary School", 
-        "Nevin Platt Middle School", 
-        "Silver Creek High School", 
-        "Boulder Prep Charter High School", 
-        "Fairview High School", 
-        "Boulder Universal"
+        {
+            "value": "University Hill Elementary School", 
+            "label": "University Hill Elementary School"
+        }, 
+        {
+            "value": "Lafayette Elementary School", 
+            "label": "Lafayette Elementary School"
+        }, 
+        {
+            "value": "Niwot Elementary School", 
+            "label": "Niwot Elementary School"
+        }, 
+        {
+            "value": "Horizons K-8 School", 
+            "label": "Horizons K-8 School"
+        }, 
+        {
+            "value": "Foothill Elementary School", 
+            "label": "Foothill Elementary School"
+        }, 
+        {
+            "value": "Red Hawk Elementary", 
+            "label": "Red Hawk Elementary"
+        }, 
+        {
+            "value": "Burlington Elementary School", 
+            "label": "Burlington Elementary School"
+        }, 
+        {
+            "value": "Eagle Crest Elementary School", 
+            "label": "Eagle Crest Elementary School"
+        }, 
+        {
+            "value": "Birch Elementary School", 
+            "label": "Birch Elementary School"
+        }, 
+        {
+            "value": "Central Elementary School", 
+            "label": "Central Elementary School"
+        }, 
+        {
+            "value": "Manhattan Middle School Of The Arts And Academics", 
+            "label": "Manhattan Middle School Of The Arts And Academics"
+        }, 
+        {
+            "value": "Bear Creek Elementary School", 
+            "label": "Bear Creek Elementary School"
+        }, 
+        {
+            "value": "Kohl Elementary School", 
+            "label": "Kohl Elementary School"
+        }, 
+        {
+            "value": "Emerald Elementary School", 
+            "label": "Emerald Elementary School"
+        }, 
+        {
+            "value": "Loma Linda Elementary School", 
+            "label": "Loma Linda Elementary School"
+        }, 
+        {
+            "value": "Lyons Elementary School", 
+            "label": "Lyons Elementary School"
+        }, 
+        {
+            "value": "Rocky Mountain Elementary School", 
+            "label": "Rocky Mountain Elementary School"
+        }, 
+        {
+            "value": "Timberline PK-8", 
+            "label": "Timberline PK-8"
+        }, 
+        {
+            "value": "Fireside Elementary School", 
+            "label": "Fireside Elementary School"
+        }, 
+        {
+            "value": "Sanchez Elementary School", 
+            "label": "Sanchez Elementary School"
+        }, 
+        {
+            "value": "Centennial Elementary", 
+            "label": "Centennial Elementary"
+        }, 
+        {
+            "value": "Mesa Elementary School", 
+            "label": "Mesa Elementary School"
+        }, 
+        {
+            "value": "Coal Creek Elementary School", 
+            "label": "Coal Creek Elementary School"
+        }, 
+        {
+            "value": "Community Montessori School", 
+            "label": "Community Montessori School"
+        }, 
+        {
+            "value": "Heatherwood Elementary School", 
+            "label": "Heatherwood Elementary School"
+        }, 
+        {
+            "value": "Mountain View Elementary School", 
+            "label": "Mountain View Elementary School"
+        }, 
+        {
+            "value": "Boulder Community School/Integrated Studies", 
+            "label": "Boulder Community School/Integrated Studies"
+        }, 
+        {
+            "value": "Pioneer Bilingual Elementary School", 
+            "label": "Pioneer Bilingual Elementary School"
+        }, 
+        {
+            "value": "Black Rock Elementary", 
+            "label": "Black Rock Elementary"
+        }, 
+        {
+            "value": "Ryan Elementary School", 
+            "label": "Ryan Elementary School"
+        }, 
+        {
+            "value": "Columbine Elementary School (BVSD)", 
+            "label": "Columbine Elementary School (BVSD)"
+        }, 
+        {
+            "value": "Indian Peaks Elementary School", 
+            "label": "Indian Peaks Elementary School"
+        }, 
+        {
+            "value": "Louisville Elementary School", 
+            "label": "Louisville Elementary School"
+        }, 
+        {
+            "value": "Nederland Elementary School", 
+            "label": "Nederland Elementary School"
+        }, 
+        {
+            "value": "Eisenhower Elementary School", 
+            "label": "Eisenhower Elementary School"
+        }, 
+        {
+            "value": "Whittier Elementary School", 
+            "label": "Whittier Elementary School"
+        }, 
+        {
+            "value": "Spangler Elementary School", 
+            "label": "Spangler Elementary School"
+        }, 
+        {
+            "value": "Columbine Elementary School (SVVSD)", 
+            "label": "Columbine Elementary School (SVVSD)"
+        }, 
+        {
+            "value": "Flagstaff Charter Academy", 
+            "label": "Flagstaff Charter Academy"
+        }, 
+        {
+            "value": "Crest View Elementary School", 
+            "label": "Crest View Elementary School"
+        }, 
+        {
+            "value": "Centennial Middle School", 
+            "label": "Centennial Middle School"
+        }, 
+        {
+            "value": "Monarch K-8 School", 
+            "label": "Monarch K-8 School"
+        }, 
+        {
+            "value": "Sunset Middle School", 
+            "label": "Sunset Middle School"
+        }, 
+        {
+            "value": "Longmont Estates Elementary School", 
+            "label": "Longmont Estates Elementary School"
+        }, 
+        {
+            "value": "Alpine Elementary School", 
+            "label": "Alpine Elementary School"
+        }, 
+        {
+            "value": "Mapleton Early Childhood Center", 
+            "label": "Mapleton Early Childhood Center"
+        }, 
+        {
+            "value": "Superior Elementary School", 
+            "label": "Superior Elementary School"
+        }, 
+        {
+            "value": "High Peaks Elementary School", 
+            "label": "High Peaks Elementary School"
+        }, 
+        {
+            "value": "Douglass Elementary School", 
+            "label": "Douglass Elementary School"
+        }, 
+        {
+            "value": "Hygiene Elementary School", 
+            "label": "Hygiene Elementary School"
+        }, 
+        {
+            "value": "Coal Ridge Middle School", 
+            "label": "Coal Ridge Middle School"
+        }, 
+        {
+            "value": "Mead Elementary School", 
+            "label": "Mead Elementary School"
+        }, 
+        {
+            "value": "Prairie Ridge Elementary School", 
+            "label": "Prairie Ridge Elementary School"
+        }, 
+        {
+            "value": "St. Vrain Community Montossori School", 
+            "label": "St. Vrain Community Montossori School"
+        }, 
+        {
+            "value": "Boulder Preparatory High School", 
+            "label": "Boulder Preparatory High School"
+        }, 
+        {
+            "value": "Aspen Creek K-8 School", 
+            "label": "Aspen Creek K-8 School"
+        }, 
+        {
+            "value": "Angevine Middle School", 
+            "label": "Angevine Middle School"
+        }, 
+        {
+            "value": "New Vista High School", 
+            "label": "New Vista High School"
+        }, 
+        {
+            "value": "Eldorado K-8 School", 
+            "label": "Eldorado K-8 School"
+        }, 
+        {
+            "value": "Casey Middle School", 
+            "label": "Casey Middle School"
+        }, 
+        {
+            "value": "Altona Middle School", 
+            "label": "Altona Middle School"
+        }, 
+        {
+            "value": "Heritage Middle School", 
+            "label": "Heritage Middle School"
+        }, 
+        {
+            "value": "Lyons Middle/Senior High School", 
+            "label": "Lyons Middle/Senior High School"
+        }, 
+        {
+            "value": "Fall River Elementary School", 
+            "label": "Fall River Elementary School"
+        }, 
+        {
+            "value": "Blue Mountain Elementary", 
+            "label": "Blue Mountain Elementary"
+        }, 
+        {
+            "value": "Mead High School", 
+            "label": "Mead High School"
+        }, 
+        {
+            "value": "Erie Elementary School", 
+            "label": "Erie Elementary School"
+        }, 
+        {
+            "value": "Peak To Peak Charter School", 
+            "label": "Peak To Peak Charter School"
+        }, 
+        {
+            "value": "Flatirons Elementary School", 
+            "label": "Flatirons Elementary School"
+        }, 
+        {
+            "value": "Niwot High School", 
+            "label": "Niwot High School"
+        }, 
+        {
+            "value": "Westview Middle School", 
+            "label": "Westview Middle School"
+        }, 
+        {
+            "value": "Creekside Elementary School at Martin Park", 
+            "label": "Creekside Elementary School at Martin Park"
+        }, 
+        {
+            "value": "Broomfield Heights Middle School", 
+            "label": "Broomfield Heights Middle School"
+        }, 
+        {
+            "value": "Boulder High School", 
+            "label": "Boulder High School"
+        }, 
+        {
+            "value": "Centaurus High School", 
+            "label": "Centaurus High School"
+        }, 
+        {
+            "value": "Longmont High School", 
+            "label": "Longmont High School"
+        }, 
+        {
+            "value": "Northridge Elementary School", 
+            "label": "Northridge Elementary School"
+        }, 
+        {
+            "value": "Sanborn Elementary School", 
+            "label": "Sanborn Elementary School"
+        }, 
+        {
+            "value": "Legacy Elementary School", 
+            "label": "Legacy Elementary School"
+        }, 
+        {
+            "value": "Summit Middle Charter School", 
+            "label": "Summit Middle Charter School"
+        }, 
+        {
+            "value": "Erie Middle School", 
+            "label": "Erie Middle School"
+        }, 
+        {
+            "value": "Longs Peak Middle School", 
+            "label": "Longs Peak Middle School"
+        }, 
+        {
+            "value": "Trail Ridge Middle School", 
+            "label": "Trail Ridge Middle School"
+        }, 
+        {
+            "value": "Imagine Charter", 
+            "label": "Imagine Charter"
+        }, 
+        {
+            "value": "Frederick Elementary School", 
+            "label": "Frederick Elementary School"
+        }, 
+        {
+            "value": "Nevin Platt Middle School", 
+            "label": "Nevin Platt Middle School"
+        }, 
+        {
+            "value": "Silver Creek High School", 
+            "label": "Silver Creek High School"
+        }, 
+        {
+            "value": "Boulder Prep Charter High School", 
+            "label": "Boulder Prep Charter High School"
+        }, 
+        {
+            "value": "Fairview High School", 
+            "label": "Fairview High School"
+        }, 
+        {
+            "value": "Boulder Universal", 
+            "label": "Boulder Universal"
+        }
     ], 
     "organizations": [
         "City of Boulder Open Space & Mountain Parks", 

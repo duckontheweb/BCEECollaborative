@@ -15,7 +15,7 @@ pw = 'password'
 schema = 'year2013'
 table = 'resourceapplications'
 
-jsonObject = {'data': []}
+jsonObject = {'data': [], 'schools': [], 'organizations': []}
 
 orgField = 'organization'
 organizations = []
@@ -55,8 +55,8 @@ jsonObject['organizations'] = organizations
 # Populate list of schools
 for row in jsonObject['data']:
     if row[schoolField] not in schools:
+        jsonObject['schools'].append({"label": row[schoolField], "value": row[schoolField]})
         schools.append(row[schoolField])
-jsonObject['schools'] = schools
 
 # Write JSON object to file
 with open(outputJSON, 'w') as outfile:
