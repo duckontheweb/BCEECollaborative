@@ -1,4 +1,7 @@
 
 var DataModel = Backbone.Model.extend({
-	rawData: []
+	rawData: [],
+	schools: [],
+	filterList: [],
+	firstFilter: ''
 });
