@@ -35,8 +35,18 @@ if conn is not None:
     # Create cursor
     cur = conn.cursor()
     
+    # Get rows not to be counted
+    removeRows = []
+    findGrowe = 'SELECT gid FROM ' + schema + '.' + table + ' WHERE ' + orgField + " = 'Growe Foundation';"
+    cur.execute(findGrowe)
+    while True:
+        row = cur.fetchone()
+        if row is None:
+            break
+        removeRows.append(row[0])
+    
     # Create SQL string
-    SQL = 'SELECT row_to_json(' + table + ') FROM ' + schema + '.' + table + ';'
+    SQL = 'SELECT row_to_json(' + table + ') FROM ' + schema + '.' + table + ' WHERE gid NOT IN ' + str(removeRows).replace('[', '(').replace(']', ')') + ';'
     cur.execute(SQL)
     
     # Loop through all JSON rows and add to object
@@ -55,7 +65,7 @@ jsonObject['organizations'] = organizations
 # Populate list of schools
 for row in jsonObject['data']:
     if row[schoolField] not in schools:
-        jsonObject['schools'].append({"label": row[schoolField], "value": row[schoolField]})
+        jsonObject['schools'].append({"label": row[schoolField], "val": row[schoolField].replace(' ', '_')})
         schools.append(row[schoolField])
 
 # Write JSON object to file

@@ -1,363 +1,363 @@
 {
     "schools": [
         {
-            "value": "University Hill Elementary School", 
+            "val": "University_Hill_Elementary_School", 
             "label": "University Hill Elementary School"
         }, 
         {
-            "value": "Lafayette Elementary School", 
+            "val": "Lafayette_Elementary_School", 
             "label": "Lafayette Elementary School"
         }, 
         {
-            "value": "Niwot Elementary School", 
+            "val": "Niwot_Elementary_School", 
             "label": "Niwot Elementary School"
         }, 
         {
-            "value": "Horizons K-8 School", 
+            "val": "Horizons_K-8_School", 
             "label": "Horizons K-8 School"
         }, 
         {
-            "value": "Foothill Elementary School", 
+            "val": "Foothill_Elementary_School", 
             "label": "Foothill Elementary School"
         }, 
         {
-            "value": "Red Hawk Elementary", 
+            "val": "Red_Hawk_Elementary", 
             "label": "Red Hawk Elementary"
         }, 
         {
-            "value": "Burlington Elementary School", 
+            "val": "Burlington_Elementary_School", 
             "label": "Burlington Elementary School"
         }, 
         {
-            "value": "Eagle Crest Elementary School", 
+            "val": "Eagle_Crest_Elementary_School", 
             "label": "Eagle Crest Elementary School"
         }, 
         {
-            "value": "Birch Elementary School", 
+            "val": "Birch_Elementary_School", 
             "label": "Birch Elementary School"
         }, 
         {
-            "value": "Central Elementary School", 
+            "val": "Central_Elementary_School", 
             "label": "Central Elementary School"
         }, 
         {
-            "value": "Manhattan Middle School Of The Arts And Academics", 
+            "val": "Manhattan_Middle_School_Of_The_Arts_And_Academics", 
             "label": "Manhattan Middle School Of The Arts And Academics"
         }, 
         {
-            "value": "Bear Creek Elementary School", 
+            "val": "Bear_Creek_Elementary_School", 
             "label": "Bear Creek Elementary School"
         }, 
         {
-            "value": "Kohl Elementary School", 
+            "val": "Kohl_Elementary_School", 
             "label": "Kohl Elementary School"
         }, 
         {
-            "value": "Emerald Elementary School", 
+            "val": "Emerald_Elementary_School", 
             "label": "Emerald Elementary School"
         }, 
         {
-            "value": "Loma Linda Elementary School", 
+            "val": "Loma_Linda_Elementary_School", 
             "label": "Loma Linda Elementary School"
         }, 
         {
-            "value": "Lyons Elementary School", 
+            "val": "Lyons_Elementary_School", 
             "label": "Lyons Elementary School"
         }, 
         {
-            "value": "Rocky Mountain Elementary School", 
+            "val": "Rocky_Mountain_Elementary_School", 
             "label": "Rocky Mountain Elementary School"
         }, 
         {
-            "value": "Timberline PK-8", 
+            "val": "Timberline_PK-8", 
             "label": "Timberline PK-8"
         }, 
         {
-            "value": "Fireside Elementary School", 
+            "val": "Fireside_Elementary_School", 
             "label": "Fireside Elementary School"
         }, 
         {
-            "value": "Sanchez Elementary School", 
+            "val": "Sanchez_Elementary_School", 
             "label": "Sanchez Elementary School"
         }, 
         {
-            "value": "Centennial Elementary", 
+            "val": "Centennial_Elementary", 
             "label": "Centennial Elementary"
         }, 
         {
-            "value": "Mesa Elementary School", 
+            "val": "Mesa_Elementary_School", 
             "label": "Mesa Elementary School"
         }, 
         {
-            "value": "Coal Creek Elementary School", 
+            "val": "Coal_Creek_Elementary_School", 
             "label": "Coal Creek Elementary School"
         }, 
         {
-            "value": "Community Montessori School", 
+            "val": "Community_Montessori_School", 
             "label": "Community Montessori School"
         }, 
         {
-            "value": "Heatherwood Elementary School", 
+            "val": "Heatherwood_Elementary_School", 
             "label": "Heatherwood Elementary School"
         }, 
         {
-            "value": "Mountain View Elementary School", 
+            "val": "Mountain_View_Elementary_School", 
             "label": "Mountain View Elementary School"
         }, 
         {
-            "value": "Boulder Community School/Integrated Studies", 
+            "val": "Boulder_Community_School/Integrated_Studies", 
             "label": "Boulder Community School/Integrated Studies"
         }, 
         {
-            "value": "Pioneer Bilingual Elementary School", 
+            "val": "Pioneer_Bilingual_Elementary_School", 
             "label": "Pioneer Bilingual Elementary School"
         }, 
         {
-            "value": "Black Rock Elementary", 
+            "val": "Black_Rock_Elementary", 
             "label": "Black Rock Elementary"
         }, 
         {
-            "value": "Ryan Elementary School", 
+            "val": "Ryan_Elementary_School", 
             "label": "Ryan Elementary School"
         }, 
         {
-            "value": "Columbine Elementary School (BVSD)", 
+            "val": "Columbine_Elementary_School_(BVSD)", 
             "label": "Columbine Elementary School (BVSD)"
         }, 
         {
-            "value": "Indian Peaks Elementary School", 
+            "val": "Indian_Peaks_Elementary_School", 
             "label": "Indian Peaks Elementary School"
         }, 
         {
-            "value": "Louisville Elementary School", 
+            "val": "Louisville_Elementary_School", 
             "label": "Louisville Elementary School"
         }, 
         {
-            "value": "Nederland Elementary School", 
+            "val": "Nederland_Elementary_School", 
             "label": "Nederland Elementary School"
         }, 
         {
-            "value": "Eisenhower Elementary School", 
+            "val": "Eisenhower_Elementary_School", 
             "label": "Eisenhower Elementary School"
         }, 
         {
-            "value": "Whittier Elementary School", 
+            "val": "Whittier_Elementary_School", 
             "label": "Whittier Elementary School"
         }, 
         {
-            "value": "Spangler Elementary School", 
+            "val": "Spangler_Elementary_School", 
             "label": "Spangler Elementary School"
         }, 
         {
-            "value": "Columbine Elementary School (SVVSD)", 
+            "val": "Columbine_Elementary_School_(SVVSD)", 
             "label": "Columbine Elementary School (SVVSD)"
         }, 
         {
-            "value": "Flagstaff Charter Academy", 
+            "val": "Flagstaff_Charter_Academy", 
             "label": "Flagstaff Charter Academy"
         }, 
         {
-            "value": "Crest View Elementary School", 
+            "val": "Crest_View_Elementary_School", 
             "label": "Crest View Elementary School"
         }, 
         {
-            "value": "Centennial Middle School", 
+            "val": "Centennial_Middle_School", 
             "label": "Centennial Middle School"
         }, 
         {
-            "value": "Monarch K-8 School", 
+            "val": "Monarch_K-8_School", 
             "label": "Monarch K-8 School"
         }, 
         {
-            "value": "Sunset Middle School", 
+            "val": "Sunset_Middle_School", 
             "label": "Sunset Middle School"
         }, 
         {
-            "value": "Longmont Estates Elementary School", 
+            "val": "Longmont_Estates_Elementary_School", 
             "label": "Longmont Estates Elementary School"
         }, 
         {
-            "value": "Alpine Elementary School", 
+            "val": "Alpine_Elementary_School", 
             "label": "Alpine Elementary School"
         }, 
         {
-            "value": "Mapleton Early Childhood Center", 
+            "val": "Mapleton_Early_Childhood_Center", 
             "label": "Mapleton Early Childhood Center"
         }, 
         {
-            "value": "Superior Elementary School", 
+            "val": "Superior_Elementary_School", 
             "label": "Superior Elementary School"
         }, 
         {
-            "value": "High Peaks Elementary School", 
+            "val": "High_Peaks_Elementary_School", 
             "label": "High Peaks Elementary School"
         }, 
         {
-            "value": "Douglass Elementary School", 
+            "val": "Douglass_Elementary_School", 
             "label": "Douglass Elementary School"
         }, 
         {
-            "value": "Hygiene Elementary School", 
+            "val": "Hygiene_Elementary_School", 
             "label": "Hygiene Elementary School"
         }, 
         {
-            "value": "Coal Ridge Middle School", 
+            "val": "Coal_Ridge_Middle_School", 
             "label": "Coal Ridge Middle School"
         }, 
         {
-            "value": "Mead Elementary School", 
+            "val": "Mead_Elementary_School", 
             "label": "Mead Elementary School"
         }, 
         {
-            "value": "Prairie Ridge Elementary School", 
+            "val": "Prairie_Ridge_Elementary_School", 
             "label": "Prairie Ridge Elementary School"
         }, 
         {
-            "value": "St. Vrain Community Montossori School", 
+            "val": "St._Vrain_Community_Montossori_School", 
             "label": "St. Vrain Community Montossori School"
         }, 
         {
-            "value": "Boulder Preparatory High School", 
+            "val": "Boulder_Preparatory_High_School", 
             "label": "Boulder Preparatory High School"
         }, 
         {
-            "value": "Aspen Creek K-8 School", 
+            "val": "Aspen_Creek_K-8_School", 
             "label": "Aspen Creek K-8 School"
         }, 
         {
-            "value": "Angevine Middle School", 
+            "val": "Angevine_Middle_School", 
             "label": "Angevine Middle School"
         }, 
         {
-            "value": "New Vista High School", 
+            "val": "New_Vista_High_School", 
             "label": "New Vista High School"
         }, 
         {
-            "value": "Eldorado K-8 School", 
+            "val": "Eldorado_K-8_School", 
             "label": "Eldorado K-8 School"
         }, 
         {
-            "value": "Casey Middle School", 
+            "val": "Casey_Middle_School", 
             "label": "Casey Middle School"
         }, 
         {
-            "value": "Altona Middle School", 
+            "val": "Altona_Middle_School", 
             "label": "Altona Middle School"
         }, 
         {
-            "value": "Heritage Middle School", 
+            "val": "Heritage_Middle_School", 
             "label": "Heritage Middle School"
         }, 
         {
-            "value": "Lyons Middle/Senior High School", 
+            "val": "Lyons_Middle/Senior_High_School", 
             "label": "Lyons Middle/Senior High School"
         }, 
         {
-            "value": "Fall River Elementary School", 
+            "val": "Fall_River_Elementary_School", 
             "label": "Fall River Elementary School"
         }, 
         {
-            "value": "Blue Mountain Elementary", 
+            "val": "Blue_Mountain_Elementary", 
             "label": "Blue Mountain Elementary"
         }, 
         {
-            "value": "Mead High School", 
+            "val": "Mead_High_School", 
             "label": "Mead High School"
         }, 
         {
-            "value": "Erie Elementary School", 
+            "val": "Erie_Elementary_School", 
             "label": "Erie Elementary School"
         }, 
         {
-            "value": "Peak To Peak Charter School", 
+            "val": "Peak_To_Peak_Charter_School", 
             "label": "Peak To Peak Charter School"
         }, 
         {
-            "value": "Flatirons Elementary School", 
+            "val": "Flatirons_Elementary_School", 
             "label": "Flatirons Elementary School"
         }, 
         {
-            "value": "Niwot High School", 
+            "val": "Niwot_High_School", 
             "label": "Niwot High School"
         }, 
         {
-            "value": "Westview Middle School", 
+            "val": "Westview_Middle_School", 
             "label": "Westview Middle School"
         }, 
         {
-            "value": "Creekside Elementary School at Martin Park", 
+            "val": "Creekside_Elementary_School_at_Martin_Park", 
             "label": "Creekside Elementary School at Martin Park"
         }, 
         {
-            "value": "Broomfield Heights Middle School", 
+            "val": "Broomfield_Heights_Middle_School", 
             "label": "Broomfield Heights Middle School"
         }, 
         {
-            "value": "Boulder High School", 
+            "val": "Boulder_High_School", 
             "label": "Boulder High School"
         }, 
         {
-            "value": "Centaurus High School", 
+            "val": "Centaurus_High_School", 
             "label": "Centaurus High School"
         }, 
         {
-            "value": "Longmont High School", 
+            "val": "Longmont_High_School", 
             "label": "Longmont High School"
         }, 
         {
-            "value": "Northridge Elementary School", 
+            "val": "Northridge_Elementary_School", 
             "label": "Northridge Elementary School"
         }, 
         {
-            "value": "Sanborn Elementary School", 
+            "val": "Sanborn_Elementary_School", 
             "label": "Sanborn Elementary School"
         }, 
         {
-            "value": "Legacy Elementary School", 
+            "val": "Legacy_Elementary_School", 
             "label": "Legacy Elementary School"
         }, 
         {
-            "value": "Summit Middle Charter School", 
+            "val": "Summit_Middle_Charter_School", 
             "label": "Summit Middle Charter School"
         }, 
         {
-            "value": "Erie Middle School", 
+            "val": "Erie_Middle_School", 
             "label": "Erie Middle School"
         }, 
         {
-            "value": "Longs Peak Middle School", 
+            "val": "Longs_Peak_Middle_School", 
             "label": "Longs Peak Middle School"
         }, 
         {
-            "value": "Trail Ridge Middle School", 
+            "val": "Trail_Ridge_Middle_School", 
             "label": "Trail Ridge Middle School"
         }, 
         {
-            "value": "Imagine Charter", 
+            "val": "Imagine_Charter", 
             "label": "Imagine Charter"
         }, 
         {
-            "value": "Frederick Elementary School", 
+            "val": "Frederick_Elementary_School", 
             "label": "Frederick Elementary School"
         }, 
         {
-            "value": "Nevin Platt Middle School", 
+            "val": "Nevin_Platt_Middle_School", 
             "label": "Nevin Platt Middle School"
         }, 
         {
-            "value": "Silver Creek High School", 
+            "val": "Silver_Creek_High_School", 
             "label": "Silver Creek High School"
         }, 
         {
-            "value": "Boulder Prep Charter High School", 
+            "val": "Boulder_Prep_Charter_High_School", 
             "label": "Boulder Prep Charter High School"
         }, 
         {
-            "value": "Fairview High School", 
+            "val": "Fairview_High_School", 
             "label": "Fairview High School"
         }, 
         {
-            "value": "Boulder Universal", 
+            "val": "Boulder_Universal", 
             "label": "Boulder Universal"
         }
     ], 
@@ -376,7 +376,6 @@
         "Colorado Mountain Club", 
         "Alliance for Climate Education", 
         "Cottonwood Institute", 
-        "Growe Foundation", 
         "Boulder County Parks and Open Space", 
         "HawkQuest", 
         "CU Museum of Natural History", 
@@ -8051,27 +8050,6 @@
         }, 
         {
             "city": "Boulder", 
-            "school": "Columbine Elementary School (BVSD)", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 466, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1433, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
             "school": "Centennial Middle School", 
             "schooldistrict": "Boulder Valley Re 2", 
             "firsthours": 0.75, 
@@ -8113,27 +8091,6 @@
             "subtopic": "Nutrient Cycle"
         }, 
         {
-            "city": "Boulder", 
-            "school": "Community Montessori School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 244, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1434, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
             "city": "Erie", 
             "school": "Black Rock Elementary", 
             "schooldistrict": "St Vrain Valley Re 1J", 
@@ -8153,27 +8110,6 @@
             "thirdhours": 0, 
             "thirddate": null, 
             "subtopic": null
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Community Montessori School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 244, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1435, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
         }, 
         {
             "city": "Longmont", 
@@ -11389,27 +11325,6 @@
             "subtopic": "Stewardship"
         }, 
         {
-            "city": "Louisville", 
-            "school": "Louisville Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 573, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1449, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
             "city": "Longmont", 
             "school": "Westview Middle School", 
             "schooldistrict": "St Vrain Valley Re 1J", 
@@ -14033,27 +13948,6 @@
             "thirdhours": 0, 
             "thirddate": null, 
             "subtopic": "Recycling"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Foothill Elementary School", 
-            "schooldistrict": "Boulder Valley Re 9", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 578, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1461, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
         }, 
         {
             "city": "Boulder", 
@@ -22078,27 +21972,6 @@
             "subtopic": "Stewardship"
         }, 
         {
-            "city": "Lafayette", 
-            "school": "Ryan Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 464, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1451, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
             "city": "Boulder", 
             "school": "Heatherwood Elementary School", 
             "schooldistrict": "Boulder Valley Re 2", 
@@ -26845,27 +26718,6 @@
             "subtopic": "Recycling"
         }, 
         {
-            "city": "Boulder", 
-            "school": "Flatirons Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 296, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1442, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
             "city": "Longmont", 
             "school": "Northridge Elementary School", 
             "schooldistrict": "St Vrain Valley Re 1J", 
@@ -28796,27 +28648,6 @@
             "thirdhours": 0, 
             "thirddate": null, 
             "subtopic": "Composting"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "High Peaks Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 295, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1444, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
         }, 
         {
             "city": "Longmont", 
@@ -32791,27 +32622,6 @@
             "city": "Boulder", 
             "school": "High Peaks Elementary School", 
             "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 295, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1445, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "High Peaks Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
             "firsthours": 5, 
             "totalhours": 5, 
             "firstdate": "2013-04-17", 
@@ -33797,48 +33607,6 @@
         }, 
         {
             "city": "Boulder", 
-            "school": "Mesa Elementary School", 
-            "schooldistrict": "Boulder Valley Re 0", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 354, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1426, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Mesa Elementary School", 
-            "schooldistrict": "Boulder Valley Re 1", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 354, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1427, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
             "school": "Columbine Elementary School (BVSD)", 
             "schooldistrict": "Boulder Valley Re 2", 
             "firsthours": 1, 
@@ -33857,90 +33625,6 @@
             "thirdhours": 0, 
             "thirddate": null, 
             "subtopic": "Waste Prevention"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Boulder Community School/Integrated Studies", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 294, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1428, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Boulder Community School/Integrated Studies", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 294, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1429, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Louisville", 
-            "school": "Coal Creek Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 456, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1430, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Louisville", 
-            "school": "Coal Creek Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 456, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1431, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
         }, 
         {
             "city": "Longmont", 
@@ -33965,279 +33649,6 @@
         }, 
         {
             "city": "Boulder", 
-            "school": "Columbine Elementary School (BVSD)", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 466, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1432, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Crest View Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 626, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1438, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Crest View Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 626, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1439, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Louisville", 
-            "school": "Fireside Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 475, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1440, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Lafayette", 
-            "school": "Lafayette Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 611, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1446, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Lafayette", 
-            "school": "Lafayette Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 611, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1447, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Louisville", 
-            "school": "Louisville Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 573, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1448, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Lafayette", 
-            "school": "Ryan Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 464, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1450, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Superior", 
-            "school": "Superior Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 560, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1452, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Superior", 
-            "school": "Superior Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 560, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1453, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "University Hill Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 370, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1454, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "University Hill Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 370, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1455, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Whittier Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 401, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1456, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
             "school": "High Peaks Elementary School", 
             "schooldistrict": "Boulder Valley Re 2", 
             "firsthours": 4, 
@@ -34259,69 +33670,6 @@
         }, 
         {
             "city": "Boulder", 
-            "school": "Whittier Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 401, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1457, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Broomfield", 
-            "school": "Emerald Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Broomfield", 
-            "topic": "Agriculture", 
-            "studentsvisited": 327, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1458, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Broomfield", 
-            "school": "Emerald Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Broomfield", 
-            "topic": "Agriculture", 
-            "studentsvisited": 327, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1459, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
             "school": "Foothill Elementary School", 
             "schooldistrict": "Boulder Valley Re 2", 
             "firsthours": 1, 
@@ -34340,27 +33688,6 @@
             "thirdhours": 0, 
             "thirddate": null, 
             "subtopic": "Minerals Management"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Foothill Elementary School", 
-            "schooldistrict": "Boulder Valley Re 8", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 578, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1460, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
         }, 
         {
             "city": "Niwot", 
@@ -37934,27 +37261,6 @@
         }, 
         {
             "city": "Boulder", 
-            "school": "Flatirons Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 296, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1443, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
             "school": "Mesa Elementary School", 
             "schooldistrict": "Boulder Valley Re 2", 
             "firsthours": 0.5, 
@@ -38204,27 +37510,6 @@
             "thirdhours": 0, 
             "thirddate": null, 
             "subtopic": "Ecology"
-        }, 
-        {
-            "city": "Louisville", 
-            "school": "Fireside Elementary School", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 475, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1441, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
         }, 
         {
             "city": "Lafayette", 
@@ -41186,48 +40471,6 @@
             "thirdhours": 0, 
             "thirddate": null, 
             "subtopic": "Recycling"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Creekside Elementary School at Martin Park", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-03-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 340, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1436, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
-        }, 
-        {
-            "city": "Boulder", 
-            "school": "Creekside Elementary School at Martin Park", 
-            "schooldistrict": "Boulder Valley Re 2", 
-            "firsthours": 0.75, 
-            "totalhours": 0.75, 
-            "firstdate": "2013-09-01", 
-            "seconddate": null, 
-            "county": "Boulder", 
-            "topic": "Agriculture", 
-            "studentsvisited": 340, 
-            "grades": "P, K, 1, 2, 3, 4, 5", 
-            "program": "Garden to Table Lesson", 
-            "totalvisits": 1, 
-            "gid": 1437, 
-            "organization": "Growe Foundation", 
-            "secondhours": 0, 
-            "thirdhours": 0, 
-            "thirddate": null, 
-            "subtopic": "Plants"
         }, 
         {
             "city": "Boulder", 

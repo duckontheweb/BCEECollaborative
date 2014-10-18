@@ -10,23 +10,27 @@ var SchoolDropdown = Backbone.View.extend({
 	},
 
 	updateSchool: function () {
+		var self = this;
+
+		var theValue = $(self.el)[0].value;
+		var schoolIndex = indexOfObject(self.model.get("schools"), 'val', theValue);
+		self.model.set("schoolSelectedName", self.model.get("schools")[schoolIndex].label);
+		self.model.set("schoolSelected", theValue);
+
 	},
 
 	render: function () {
 		var self = this;
 
-		// $(this.el).selectmenu({style: 'dropdown'});
+		// $(this.el).selectmenu({style: 'dropdown'}, { position: { my : "left bottom", at: "left top"}});
 		var source = $('#dropdown-template').html();
 		var template = Handlebars.compile(source);
 		var html = template(self.model.get("schools"));
-		$(this.el).html(html);
+		$(self.el).html(html);
 		$(self.el).val(self.model.get("schools")[0].val);
+		// $(self.el).selectmenu("refresh");
 		self.model.set("schoolSelected", $(self.el).val());
-
-		console.dir(self.model.get("schools")[0].label);
-
-
-		// $(this.el).selectmenu('refresh', true);
+		self.model.set("schoolSelectedName", self.model.get("schools")[0].label);
 	}
 });
 
@@ -45,6 +49,7 @@ var FirstDropdown = Backbone.View.extend({
 		var self = this;
 
 		self.model.set("firstFilter", $(self.el).value);
+		console.dir($(self.el).value)
 	},
 
 	render: function () {
@@ -101,7 +106,6 @@ var SecondDropdown = Backbone.View.extend({
 		$(self.el).html(html);
 		$(self.el).val(secondFilterList[0].val);
 		// $(self.el).selectmenu("refresh");
-
 		self.model.set("secondFilter", $(self.el).val());
 	}
 });

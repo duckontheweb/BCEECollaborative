@@ -1,35 +1,50 @@
-var newCross, schoolDimension, schoolGroup;
+var dataModel;
 
 var changeTheme = function (id) {
 
+}
+
+function indexOfObject(array, name, value) {
+    for (q=0; q<array.length; q++) {
+        if (array[q][name] == value) {
+            return q;
+        }
+    }
 }
 
 var filterData = function (model) {
 	
 	// Create new crossfilter object
 	var dataCross = crossfilter(model.get("rawData"));
+	
 	// Get top 4 organizations for selected school
 	var orgDimension = dataCross.dimension(function (d) {return d.organization});
-	var orgsInSchool = orgDimension.filter(model.get("schoolSelected"));
-	// console.dir(dataCross);
-	// console.dir(orgDimension);
-	// console.dir(orgsInSchool);
+	var orgsInSchool = orgDimension.filter(model.get("schoolSelected")).group(function (organization) {return organization;});
+	var topOrgs = orgsInSchool.reduceSum(function (d) {return d.totalhours * d.studentsvisited;}).top(4);
+	
+	var topOrgList = [];
+	for (i in topOrgs) {
+		topOrgList.push(topOrgs[i].key);
+	}
+	model.set("topOrgs", topOrgList);
 }
 
 var mainApp = function(rawData) {
 
-	var dataModel = new DataModel({
+	var schoolsSorted = rawData.schools.sort(function (a, b) {
+	  if (a.label > b.label) {
+	    return 1;
+	  }
+	  if (a.label < b.label) {
+	    return -1;
+	  }
+	  // a must be equal to b
+	  return 0;
+	});
+
+	dataModel = new DataModel({
 		rawData: rawData.data,
-		schools: rawData.schools.sort(function (a, b) {
-			  if (a.label > b.label) {
-			    return 1;
-			  }
-			  if (a.label < b.label) {
-			    return -1;
-			  }
-			  // a must be equal to b
-			  return 0;
-			}),
+		schools: schoolsSorted,
 		filterList: [{label: 'Grade', val: 'grade'}, {label: 'Organization', val: 'organization'}, {label: 'Program Length', val: 'totalhours'}]
 	});
 
