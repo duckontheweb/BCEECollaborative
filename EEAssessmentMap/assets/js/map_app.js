@@ -13,6 +13,23 @@
 
 	//console.log(eehrs_total);
 	//}
+var mapModel;
+var hoverEvent = function (e) {
+	mapModel.set("hoverSchool", e.layer.feature.properties.school);
+	mapModel.set("hoverDistrict", e.layer.feature.properties.district);
+	mapModel.set("totalStudents", e.layer.feature.properties.students_total);
+	mapModel.set("percentFRL", e.layer.feature.properties.percent_frl);
+	mapModel.set("percentPOC", e.layer.feature.properties.percent_poc);
+	mapModel.set("totalEE", e.layer.feature.properties.eehrs_total);
+}
+
+var unhoverEvent = function () {
+	mapModel.set("hoverSchool", '');
+	mapModel.set("hoverDistrict", '');
+	mapModel.set("totalStudents", null);
+	mapModel.set("percentFRL", null);
+}
+
 var getColor = function (feature) {
 		return 	(feature.properties.eehrs_total > 168) ? '#006d2c' :
 				(feature.properties.eehrs_total > 126) ? '#2ca25f' :
@@ -35,11 +52,30 @@ $(window).ready(function() {
 
 	var baseURL = 'http://localhost:8888/BCEECollaborative/EEAssessmentMap/';
 	$.getJSON(baseURL + 'assets/data/schoolsData.json', function (geoJSON) {
-		var mapModel = new MapModel({
-			data: geoJSON
+		
+		// Replace school district name
+		$.each(geoJSON.features, function (i, element) {
+			if (element.properties.district == 'Boulder Valley Re 2') {
+				element.properties.district = 'Boulder Valley School District';
+			} else if (element.properties.district == 'St Vrain Valley Re 1J') {
+				element.properties.district = 'St. Vrain Valley School District'
+			}
+
+			if (element.properties.school == 'Columbine Elementary School (BVSD)') {
+				element.properties.school = 'Columbine Elementary School';
+			} else if (element.properties.school == 'Columbine Elementary School (SVVSD)') {
+				element.properties.school = 'Columbine Elementary School';
+			}
+		})
+		mapModel = new MapModel({
+			data: geoJSON.features
 		});
 
 		var mapView = new MapView({
+			model: mapModel
+		});
+
+		var infoView = new InfoView({
 			model: mapModel
 		})
 	});

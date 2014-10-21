@@ -1,12 +1,18 @@
 
 var DataModel = Backbone.Model.extend({
 	rawData: [],
-	chartSeries: [],
 	schools: [],
 	schoolSelected: '',
 	schoolSelectedName: '',
 	topSchools: [],
-	filterList: [],
+	firstFilterList: [],
+	secondFilterList: [],
 	firstFilter: '',
-	secondFilter: ''
+	secondFilter: '',
+	categories: {
+		organization: [],
+		totalhours: [],
+		grades: []
+	},
+	chartSeries: []
 });

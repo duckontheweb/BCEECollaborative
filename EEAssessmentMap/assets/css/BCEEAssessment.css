@@ -5,18 +5,87 @@ body {
 #map {
 	width: 900px;
 	height: 600px;
-	display: inline-block;
+/*	display: inline-block;
+*/	float: left;
 }
 
 #info-box {
 	width: 350px;
 	height: 600px;
+	float: left;
+	margin: 5px;
+	margin-top: 0px;
+
+}
+
+#info-header {
+	width: 350px;
+	height: 50px;
+	margin: 0px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+}
+
+#info-header h2 {
+	margin: auto;
+	padding-top: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#district-name {
+	width: 350px;
+	height: 40px;
+	margin: 0px;
+	text-align: center;
+}
+
+#district-name h4 {
+	margin: auto;
+	padding-top: 15px;
+	color: #C8A55F;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#info-content {
+	height: 500px;
+	width: 350px;
+	background-color: #F0F0F0;
+	opacity: 0.7;
+	margin: 0px;
+	margin-top: 10px;
 	border: 1px solid lightgray;
-	display: inline-block;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 
+}
+
+.unselected {
+	color: #808080;
+}
+
+.selected {
+	color: #B17F1A;
+}
+
+.school-info-element {
+
+}
+
+.school-info-even {
+	background-color: white;
+}
+
+.info-selected {
+	height: 40px;
+	width: 340px;
+	padding-left: 10px;
+	padding-top: 5px;
 }
 
 #container {

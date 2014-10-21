@@ -2,33 +2,32 @@ var SchoolDropdown = Backbone.View.extend({
 	el: $('#school-dropdown'),
 
 	events: {
-		'change': 'updateSchool'
+		'selectmenuchange': 'updateSchool'
 	},
 
 	initialize: function () {
 		this.render();
 	},
 
-	updateSchool: function () {
+	updateSchool: function (event, ui) {
 		var self = this;
 
-		var theValue = $(self.el)[0].value;
+		var theValue = ui.item.value;
 		var schoolIndex = indexOfObject(self.model.get("schools"), 'val', theValue);
 		self.model.set("schoolSelectedName", self.model.get("schools")[schoolIndex].label);
 		self.model.set("schoolSelected", theValue);
-
 	},
 
 	render: function () {
 		var self = this;
 
-		// $(this.el).selectmenu({style: 'dropdown'}, { position: { my : "left bottom", at: "left top"}});
+		$(this.el).selectmenu({style: 'dropdown'});
 		var source = $('#dropdown-template').html();
 		var template = Handlebars.compile(source);
 		var html = template(self.model.get("schools"));
 		$(self.el).html(html);
 		$(self.el).val(self.model.get("schools")[0].val);
-		// $(self.el).selectmenu("refresh");
+		$(self.el).selectmenu("refresh");
 		self.model.set("schoolSelected", $(self.el).val());
 		self.model.set("schoolSelectedName", self.model.get("schools")[0].label);
 	}
@@ -38,31 +37,29 @@ var FirstDropdown = Backbone.View.extend({
 	el: $('#first-group-dropdown'),
 
 	events: {
-		'change': 'changeFirstFilter'
+		'selectmenuchange': 'updateFirstFilter'
 	},
 
 	initialize: function () {
 		this.render();
 	},
 
-	changeFirstFilter: function () {
+	updateFirstFilter: function (event, ui) {
 		var self = this;
 
-		self.model.set("firstFilter", $(self.el).value);
-		console.dir($(self.el).value)
+		self.model.set("firstFilter", ui.item.value);
 	},
 
 	render: function () {
 		var self = this;
 
-		// $(this.el).selectmenu({style: 'dropdown'}, { position: { my : "left bottom", at: "left top"}});
+		$(this.el).selectmenu({style: 'dropdown'});
 		var source = $('#dropdown-template').html();
 		var template = Handlebars.compile(source);
-		var html = template(self.model.get("filterList"));
+		var html = template(self.model.get("firstFilterList"));
 		$(self.el).html(html);
-		$(self.el).val(self.model.get("filterList")[0].val);
-		// $(self.el).selectmenu("refresh");
-
+		$(self.el).val(self.model.get("firstFilterList")[0].val);
+		$(self.el).selectmenu("refresh");
 		self.model.set("firstFilter", $(self.el).val());
 	}
 });
@@ -71,41 +68,48 @@ var SecondDropdown = Backbone.View.extend({
 	el: $('#second-group-dropdown'),
 
 	events: {
-		'change': 'changeSecondFilter'
+		'selectmenuchange': 'changeSecondFilter'
 	},
 
 	initialize: function () {
+		this.setOptions();
+		this.model.on('change:firstFilter', this.setOptions, this);
+		this.model.on('change:secondFilterList', this.render, this);
 		this.render();
 	},
 
 	changeSecondFilter: function () {
 		var self = this;
 
-		self.model.set("secondFilter", $(self.el).value);
+		// self.model.set("secondFilter", $(self.el).value);
+	},
+
+	setOptions: function() {
+		var self = this;
+		var firstFilterIndex;
+
+		for (i in self.model.get("firstFilterList")) {
+			if (self.model.get("firstFilterList")[i].val == self.model.get("firstFilter")) {
+				firstFilterIndex = i;
+			}
+		}
+
+		var secondFilterList = _(self.model.get("firstFilterList")).clone();
+
+		secondFilterList.splice(firstFilterIndex, 1);
+		self.model.set("secondFilterList", secondFilterList);
 	},
 
 	render: function () {
 		var self = this;
 
-		//Remove first filter value from second filter list
-		var firstFilterIndex;
-
-		for (i in self.model.get("filterList")) {
-			if (self.model.get("filterList")[i].value == self.model.get("firstFilter")) {
-				firstFilterIndex = i;
-			}
-		}
-
-		var secondFilterList = self.model.get("filterList");
-		secondFilterList.splice(firstFilterIndex, 1);
-
-
+		$(this.el).selectmenu({style: 'dropdown'});
 		var source = $('#dropdown-template').html();
 		var template = Handlebars.compile(source);
-		var html = template(secondFilterList);
+		var html = template(self.model.get("secondFilterList"));
 		$(self.el).html(html);
-		$(self.el).val(secondFilterList[0].val);
-		// $(self.el).selectmenu("refresh");
+		$(self.el).val(self.model.get("secondFilterList")[0].val);
+		$(self.el).selectmenu("refresh");
 		self.model.set("secondFilter", $(self.el).val());
 	}
 });

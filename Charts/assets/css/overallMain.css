@@ -71,8 +71,8 @@
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	border: 1px solid darkgray;
-	background-color: white;
+/*	border: 1px solid darkgray;
+*/	background-color: white;
 	opacity: 0.8;
 }
 .dropdown {
@@ -87,6 +87,15 @@
 
 .selectmenu {
 	width: 200px;
+}
+
+#chart {
+	width: 900;
+	height: 580px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid darkgray;
 }
 
 /*#dropdown select {

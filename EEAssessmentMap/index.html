@@ -24,6 +24,7 @@
 	<script src="./assets/js/models/map_model.js"></script>
 	<script src="./assets/js/collections/map_collection.js"></script>
 	<script src="./assets/js/views/map_view.js"></script>
+	<script src="./assets/js/views/info_view.js"></script>
 	<script src="./assets/js/map_app.js"></script>
 
 
@@ -32,7 +33,19 @@
 
 	<div id="container">
 		<div id="map"></div>
-		<div id="info-box"></div>
+		<div id="info-box">
+			<div id="info-header"></div>
+			<div id="district-name"></div>
+			<div id="info-content">
+				<div id="basic-stats">
+					<div class="school-info-element" id="total-students"></div>
+					<div class="school-info-element school-info-even" id="per-free-reduced"></div>
+					<div class="school-info-element" id="per-people-color"></div>
+					<div class="school-info-element school-info-even" id="total-ee"></div>
+				</div>
+				<div id="chart"></div>
+			</div>
+		</div>
 	</div>
 		
 </body>

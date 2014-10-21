@@ -7,6 +7,7 @@ var MapView = Backbone.View.extend({
 
 	initialize: function () {
 		this.render();
+
 	},
 
 	render: function () {
@@ -24,7 +25,8 @@ var MapView = Backbone.View.extend({
 						opacity: 1,
 						fillColor: getColor(feature),
 						fillOpacity: 0.8,
-						radius: getRadius(feature)
+						// radius: getRadius(feature)
+						radius: 6
 					});
 				},
 
@@ -34,6 +36,10 @@ var MapView = Backbone.View.extend({
 	         		);
 	         	}
 			});
+
+		//Create hover event
+		schoollayer.on('mouseover', hoverEvent);
+		schoollayer.on('mouseout', unhoverEvent);
 
 		//instantiates map object with initial zoom, max zoom, min zoom, and center properties
 		 var map = L.map('map', 

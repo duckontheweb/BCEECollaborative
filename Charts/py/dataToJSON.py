@@ -55,6 +55,7 @@ if conn is not None:
         if row is None:
             break
         jsonObject['data'].append(row[0])
+        
 
 # Populate list of organizations
 for row in jsonObject['data']:

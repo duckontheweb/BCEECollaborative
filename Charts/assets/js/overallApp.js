@@ -27,6 +27,19 @@ var filterData = function (model) {
 		topOrgList.push(topOrgs[i].key);
 	}
 	model.set("topOrgs", topOrgList);
+
+	// Filter data for charting
+
+	var secondFilterValue = model.get("secondFilter");
+
+	var chartCross = crossfilter(model.get("rawData"))
+		.dimension(function (d) {return d[model.get("firstFilter")]})
+		.filter(model.get("schoolSelected"))
+		.group(function (secondFilterValue) {return secondFilterValue});
+
+	console.dir(chartCross.all());
+
+	
 }
 
 var mainApp = function(rawData) {
@@ -45,7 +58,7 @@ var mainApp = function(rawData) {
 	dataModel = new DataModel({
 		rawData: rawData.data,
 		schools: schoolsSorted,
-		filterList: [{label: 'Grade', val: 'grade'}, {label: 'Organization', val: 'organization'}, {label: 'Program Length', val: 'totalhours'}]
+		firstFilterList: [{label: 'Grade', val: 'grade'}, {label: 'Organization', val: 'organization'}, {label: 'Program Length', val: 'totalhours'}]
 	});
 
 	var schoolDropdown = new SchoolDropdown({
