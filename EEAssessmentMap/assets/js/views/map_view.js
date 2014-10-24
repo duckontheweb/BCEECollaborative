@@ -10,10 +10,22 @@ var MapView = Backbone.View.extend({
 
 	},
 
+	activatePopup: function (e) {
+		
+		schoolPopup.setLatLng(e.latlng)
+			.setContent('<h4>' + e.layer.feature.properties.school + '</h4>')
+			.openOn(map);
+		
+	},
+
 	render: function () {
 		var self = this;
 
 		var schoolJSON = self.model.get("data");
+
+		schoolPopup = L.popup({
+			offset: L.point(0, -5)
+		})
 
 		//Create JSON layer from elementaryJSON data and add to map
 		var schoollayer = L.geoJson(schoolJSON, 
@@ -30,19 +42,14 @@ var MapView = Backbone.View.extend({
 					});
 				},
 
-				onEachFeature: function (feature, layer) {
-	         		layer.bindPopup('<h4>' + feature.properties.school + '</h4><p class="tooltip-info">Total EE Hrs.: ' + feature.properties.eehrs_total + '<br /> Total Students: ' + feature.properties.students_total + 
-	         			'<br /> Percent Free or Reduced Lunch: ' + (feature.properties.percent_frl*100).toFixed(0) + '%' + '<br /> Percent People of Color: ' + (feature.properties.percent_poc*100).toFixed(0) + '%' +'</p>'
-	         		);
-	         	}
 			});
 
 		//Create hover event
-		schoollayer.on('mouseover', hoverEvent);
+		schoollayer.on('mouseover', self.activatePopup);
 		schoollayer.on('mouseout', unhoverEvent);
 
 		//instantiates map object with initial zoom, max zoom, min zoom, and center properties
-		 var map = L.map('map', 
+		 map = L.map('map', 
 				{
 	            center: [ 40.075, -105.2 ],
 	            zoom: 11,

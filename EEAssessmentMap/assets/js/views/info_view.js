@@ -29,7 +29,7 @@ var InfoView = Backbone.View.extend({
 	updateDistrict: function () {
 		var self = this;
 		if (self.model.get("hoverDistrict") != '') {
-			$('#district-name').html('<h4>' + self.model.get("hoverDistrict") + '<h4>');
+			$('#district-name').html('<h4>' + self.model.get("hoverDistrict") + '</h4>');
 		} else {
 			$('#district-name').html('');
 		}

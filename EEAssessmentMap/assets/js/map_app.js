@@ -13,8 +13,13 @@
 
 	//console.log(eehrs_total);
 	//}
-var mapModel;
-var hoverEvent = function (e) {
+var mapModel, schoolPopup, map;
+
+// var hoverEvent = function (e) {
+
+// }
+
+var clickEvent = function (e) {
 	mapModel.set("hoverSchool", e.layer.feature.properties.school);
 	mapModel.set("hoverDistrict", e.layer.feature.properties.district);
 	mapModel.set("totalStudents", e.layer.feature.properties.students_total);
@@ -24,11 +29,17 @@ var hoverEvent = function (e) {
 }
 
 var unhoverEvent = function () {
-	mapModel.set("hoverSchool", '');
-	mapModel.set("hoverDistrict", '');
-	mapModel.set("totalStudents", null);
-	mapModel.set("percentFRL", null);
+	map.closePopup();
 }
+
+// var unhoverEvent = function () {
+// 	mapModel.set("hoverSchool", '');
+// 	mapModel.set("hoverDistrict", '');
+// 	mapModel.set("totalStudents", null);
+// 	mapModel.set("percentFRL", null);
+// 	mapModel.set("percentPOC", null);
+// 	mapModel.set("totalEE", null);
+// }
 
 var getColor = function (feature) {
 		return 	(feature.properties.eehrs_total > 168) ? '#006d2c' :
