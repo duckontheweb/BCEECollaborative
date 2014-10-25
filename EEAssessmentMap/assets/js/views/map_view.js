@@ -89,13 +89,22 @@ var MapView = Backbone.View.extend({
 		schoollayer.on('click', self.clickEvent, self);
 
 		//instantiates map object with initial zoom, max zoom, min zoom, and center properties
-		 map = L.map('map', 
-				{
+		
+		// Set max bounds
+		var southWest = L.latLng(39.80748108746673, -105.6719970703125),
+			northEast = L.latLng(40.332936381163876, -104.5733642578125);
+
+		var theBounds = L.latLngBounds(southWest, northEast);
+
+		map = L.map('map', 
+			{
 	            center: [ 40.075, -105.2 ],
 	            zoom: 11,
 	            maxZoom: 15,
-	            minZoom: 10
-	        });
+	            minZoom: 10,
+	            maxBounds: theBounds,
+	            // bounceAtZoomLimits: false
+	    });
 
 		//adds tile layer from Mapbox
 		var baseTiles = L.tileLayer('https://a.tiles.mapbox.com/v3/jonathancduckworth.il6o28fp/{z}/{x}/{y}.png',
