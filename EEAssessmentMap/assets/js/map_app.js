@@ -61,8 +61,8 @@ var getRadius = function (feature) {
 //Initializes map on window ready event
 $(window).ready(function() {
 
-	var baseURL = 'http://localhost:8888/BCEECollaborative/EEAssessmentMap/';
-	$.getJSON(baseURL + 'assets/data/schoolsData.json', function (geoJSON) {
+	// var baseURL = 'http://localhost:8888/BCEECollaborative/EEAssessmentMap/';
+	$.getJSON('./assets/data/schoolsData.json', function (geoJSON) {
 		
 		// Replace school district name
 		$.each(geoJSON.features, function (i, element) {
