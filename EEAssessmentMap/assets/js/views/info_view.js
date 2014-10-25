@@ -11,7 +11,7 @@ var InfoView = Backbone.View.extend({
 	updateFields: function () {
 		var self = this;
 		var info = self.model.get("infoData");
-		$('#info-header').html('<h3 id="school-name">' + info.school + '</h3> <h5 id="district-name">' + info.district + '</h5>')
+		$('#info-header').html('<h4 id="school-name">' + info.school + '</h4> <h5 id="district-name">' + info.district + '</h5>')
 		$('#info-header').removeClass('unselected');
 		$('#info-header').addClass('selected');
 

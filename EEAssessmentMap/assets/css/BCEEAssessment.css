@@ -35,19 +35,21 @@ body {
 
 #default-text {
 	margin: auto;
+	margin-bottom: 0px;
 	padding-top: 22px;
 	font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
 	opacity: 0.8;
 }
 
 #school-name {
-	margin-top: 5px;
-	margin-bottom: 10px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	margin: 0px;
 }
 
 #district-name {
-	margin-top: 5px;
-	margin-bottom: 5px;
+	padding-top: 8px;
+	margin: 0px;
 }
 
 #info-content {
