@@ -3,24 +3,26 @@ body {
 }
 
 #map {
-	width: 900px;
-	height: 600px;
-/*	display: inline-block;
-*/	float: left;
+	width: 800px;
+	height: 500px;
+	display: inline-block;
+	float: left;
+	border: 1px solid #B17F1A;
 }
+
 
 #info-box {
 	width: 350px;
-	height: 600px;
+	height: 500px;
 	float: left;
 	margin: 5px;
 	margin-top: 0px;
-
+	border: 1px solid #B17F1A;
 }
 
 #info-header {
 	width: 350px;
-	height: 50px;
+	height: 60px;
 	margin: 0px;
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-top-right-radius: 10px;
@@ -31,38 +33,35 @@ body {
 	text-align: center;
 }
 
-#info-header h2 {
+#default-text {
 	margin: auto;
-	padding-top: 5px;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding-top: 22px;
+	font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+	opacity: 0.8;
+}
+
+#school-name {
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 #district-name {
-	width: 350px;
-	height: 40px;
-	margin: 0px;
-	text-align: center;
-}
-
-#district-name h4 {
-	margin: auto;
-	padding-top: 15px;
-	color: #C8A55F;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #info-content {
 	height: 500px;
 	width: 350px;
-	background-color: #F0F0F0;
+	/*background-color: #F0F0F0;*/
 	opacity: 0.7;
 	margin: 0px;
 	margin-top: 10px;
-	border: 1px solid lightgray;
+	/*border: 1px solid lightgray;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-
+*/
 }
 
 .unselected {
@@ -74,11 +73,38 @@ body {
 }
 
 .school-info-element {
+	height: 30px;
+	border-top: 1px solid #B17F1A;
+	border-collapse: collapse;
+}
 
+.school-info-last {
+	border-bottom: 1px solid #B17F1A;
 }
 
 .school-info-even {
-	background-color: white;
+	
+}
+
+.field-title {
+	padding-top: 5px;
+	padding-left: 5px;
+	float: left;
+	/*color: #1AA420;*/
+	color: #006d2c;
+}
+
+.field-value {
+	padding-top: 5px;
+	padding-left: 5px;
+	float: left;
+	margin-left: 5px;
+	opacity: 0.8;
+	color: #006d2c;
+}
+
+.school-info-odd {
+	background-color: #E6E6E6;
 }
 
 .info-selected {
@@ -86,6 +112,12 @@ body {
 	width: 340px;
 	padding-left: 10px;
 	padding-top: 5px;
+}
+
+#hours-chart {
+	width: 330px;
+	height: 280px;
+	margin: 10px;
 }
 
 #container {

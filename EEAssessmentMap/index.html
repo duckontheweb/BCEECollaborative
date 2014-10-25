@@ -25,6 +25,7 @@
 	<script src="./assets/js/collections/map_collection.js"></script>
 	<script src="./assets/js/views/map_view.js"></script>
 	<script src="./assets/js/views/info_view.js"></script>
+	<script src="./assets/js/views/chart_view.js"></script>
 	<script src="./assets/js/map_app.js"></script>
 
 
@@ -35,13 +36,25 @@
 		<div id="map"></div>
 		<div id="info-box">
 			<div id="info-header"></div>
-			<div id="district-name"></div>
 			<div id="info-content">
 				<div id="basic-stats">
-					<div class="school-info-element" id="total-students"></div>
-					<div class="school-info-element school-info-even" id="per-free-reduced"></div>
-					<div class="school-info-element" id="per-people-color"></div>
-					<div class="school-info-element school-info-even" id="total-ee"></div>
+					<div class="school-info-element school-info-odd" id="total-students">
+						<div class="field-title">Total Students:</div>
+						<div class="field-value" id="total-students-value">...</div>
+					</div>
+					<div class="school-info-element school-info-even" id="per-free-reduced">
+						<div class="field-title">Percent Free/Reduced Lunch:</div>
+						<div class="field-value" id="per-free-reduced-value">...</div>
+					</div>
+					<div class="school-info-element school-info-odd" id="per-people-color">
+						<div class="field-title">Percent People of Color:</div>
+						<div class="field-value" id="per-people-color-value">...</div>
+					</div>
+					<div class="school-info-element school-info-even school-info-last" id="total-ee">
+						<div class="field-title">Total Hours of Env. Education:</div>
+						<div class="field-value" id="total-ee-value">...</div>
+					</div>
+					<div id="hours-chart"></div>
 				</div>
 				<div id="chart"></div>
 			</div>

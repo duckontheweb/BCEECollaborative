@@ -2,11 +2,17 @@
 
 
 var MapModel = Backbone.Model.extend({
-	data: {},
-	hoverSchool: '',
-	hoverDistrict: '',
-	totalStudents: null,
-	percentFRL: null,
-	percentPOC: null,
-	totalEE: null
+	defaults: {
+		data: {},
+		infoData: {
+			school: '',
+			district: '',
+			totalStudents: null,
+			percentFRL: null,
+			percentPOC: null,
+			totalEEHours: null,
+			chartCategories: [],
+			chartValues: []
+		}
+	}
 });

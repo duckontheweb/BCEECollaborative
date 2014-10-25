@@ -19,14 +19,14 @@ var mapModel, schoolPopup, map;
 
 // }
 
-var clickEvent = function (e) {
-	mapModel.set("hoverSchool", e.layer.feature.properties.school);
-	mapModel.set("hoverDistrict", e.layer.feature.properties.district);
-	mapModel.set("totalStudents", e.layer.feature.properties.students_total);
-	mapModel.set("percentFRL", e.layer.feature.properties.percent_frl);
-	mapModel.set("percentPOC", e.layer.feature.properties.percent_poc);
-	mapModel.set("totalEE", e.layer.feature.properties.eehrs_total);
-}
+// var clickEvent = function (e) {
+// 	mapModel.set("hoverSchool", e.layer.feature.properties.school);
+// 	mapModel.set("hoverDistrict", e.layer.feature.properties.district);
+// 	mapModel.set("totalStudents", e.layer.feature.properties.students_total);
+// 	mapModel.set("percentFRL", e.layer.feature.properties.percent_frl);
+// 	mapModel.set("percentPOC", e.layer.feature.properties.percent_poc);
+// 	mapModel.set("totalEE", e.layer.feature.properties.eehrs_total);
+// }
 
 var unhoverEvent = function () {
 	map.closePopup();
@@ -87,6 +87,10 @@ $(window).ready(function() {
 		});
 
 		var infoView = new InfoView({
+			model: mapModel
+		})
+
+		var chartView = new ChartView({
 			model: mapModel
 		})
 	});

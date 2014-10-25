@@ -10,6 +10,40 @@ var MapView = Backbone.View.extend({
 
 	},
 
+	clickEvent: function (e) {
+		var self = this;
+		var infoSettings = _.clone(self.model.get("infoData"));
+		infoSettings.school = e.layer.feature.properties.school;
+		infoSettings.district = e.layer.feature.properties.district;
+		infoSettings.totalStudents = e.layer.feature.properties.students_total;
+		infoSettings.percentFRL = e.layer.feature.properties.percent_frl;
+		infoSettings.percentPOC = e.layer.feature.properties.percent_poc;
+		infoSettings.totalEEHours = e.layer.feature.properties.eehrs_total;
+
+		//Get data for all non-null grades
+		var tempCategories = [];
+		var tempValues = [];
+		var schoolObject;
+		$.each(self.model.get("data"), function (i, object) {
+			if (object.properties.school == e.layer.feature.properties.school) {
+				$.each(object.properties, function (key, value) {
+					if (key.indexOf('eehrs_') != -1 & key != 'eehrs_total' & value != null) {
+						var grade = key.replace('eehrs_', '').toUpperCase();
+						tempCategories.push(grade);
+						tempValues.push(value);
+					}
+				})
+				
+				return false;
+			}
+		})
+		infoSettings.chartCategories = tempCategories;
+		infoSettings.chartValues = tempValues;
+
+		//set model object
+		self.model.set("infoData", infoSettings);
+	},
+
 	activatePopup: function (e) {
 		
 		schoolPopup.setLatLng(e.latlng)
@@ -18,13 +52,18 @@ var MapView = Backbone.View.extend({
 		
 	},
 
+	unhoverEvent: function () {
+		map.closePopup();
+	},
+
 	render: function () {
 		var self = this;
 
 		var schoolJSON = self.model.get("data");
 
 		schoolPopup = L.popup({
-			offset: L.point(0, -5)
+			offset: L.point(0, -5),
+			closeButton: false
 		})
 
 		//Create JSON layer from elementaryJSON data and add to map
@@ -46,7 +85,8 @@ var MapView = Backbone.View.extend({
 
 		//Create hover event
 		schoollayer.on('mouseover', self.activatePopup);
-		schoollayer.on('mouseout', unhoverEvent);
+		schoollayer.on('mouseout', self.unhoverEvent);
+		schoollayer.on('click', self.clickEvent, self);
 
 		//instantiates map object with initial zoom, max zoom, min zoom, and center properties
 		 map = L.map('map', 
