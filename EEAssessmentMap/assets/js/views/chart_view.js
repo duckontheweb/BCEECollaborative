@@ -9,8 +9,6 @@ var ChartView = Backbone.View.extend({
 	render: function() {
 		var self = this;
 
-		console.dir("render");
-
 		$('#hours-chart').highcharts({
 			chart: {
 				type: 'column'

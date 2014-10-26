@@ -27,6 +27,5 @@ var InfoView = Backbone.View.extend({
 		$('#info-header').html('<div id="default-text">Click on school for more information...</div>');
 		$('#info-header').addClass('unselected')
 		
-		// console.dir($(self.el));
 	}
 })

@@ -3,8 +3,9 @@ body {
 }
 
 #map {
-	width: 800px;
-	height: 500px;
+	width: 65%;
+	min-width: 300px;
+	height: 400px;
 	display: inline-block;
 	float: left;
 	border: 1px solid #B17F1A;
@@ -12,8 +13,9 @@ body {
 
 
 #info-box {
-	width: 350px;
-	height: 500px;
+	width: 25%;
+	min-width: 250px;
+	height: 400px;
 	float: left;
 	margin: 5px;
 	margin-top: 0px;
@@ -21,7 +23,7 @@ body {
 }
 
 #info-header {
-	width: 350px;
+	width: 100%;
 	height: 60px;
 	margin: 0px;
 	-webkit-border-top-left-radius: 10px;
@@ -43,18 +45,18 @@ body {
 
 #school-name {
 	padding-top: 8px;
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	margin: 0px;
 }
 
 #district-name {
-	padding-top: 8px;
+	padding-top: 6px;
 	margin: 0px;
 }
 
 #info-content {
-	height: 500px;
-	width: 350px;
+	height: 330px;
+	width: 100%;
 	/*background-color: #F0F0F0;*/
 	opacity: 0.7;
 	margin: 0px;
@@ -117,13 +119,21 @@ body {
 }
 
 #hours-chart {
-	width: 330px;
-	height: 280px;
+	width: 90%;
+	height: 190px;
 	margin: 10px;
+}
+
+.highcharts-title {
+	font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+	font-size: 16px !important;
+}
+
+.highcharts-title tspan {
 }
 
 #container {
 /*	margin: 10px auto;
 */	width: 100%;
-	height: 500px;
+	height: 400px;
 }
