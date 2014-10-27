@@ -25,7 +25,7 @@ var MapView = Backbone.View.extend({
 		var tempValues = [];
 		var schoolObject;
 		$.each(self.model.get("data"), function (i, object) {
-			if (object.properties.school == e.layer.feature.properties.school) {
+			if (object.properties.school == e.layer.feature.properties.school & object.properties.district == e.layer.feature.properties.district) {
 				$.each(object.properties, function (key, value) {
 					if (key.indexOf('eehrs_') != -1 & key != 'eehrs_total' & value != null) {
 						var grade = key.replace('eehrs_', '').toUpperCase();
