@@ -98,8 +98,8 @@ var MapView = Backbone.View.extend({
 
 		map = L.map('map', 
 			{
-	            center: [ 40.08857859823707, -105.1288604736328 ],
-	            zoom: 11,
+	            center: [ 40.08857859823707, -105.2225875854492 ],
+	            zoom: 10,
 	            maxZoom: 15,
 	            minZoom: 10,
 	            maxBounds: theBounds,
