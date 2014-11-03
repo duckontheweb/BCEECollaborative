@@ -5,7 +5,7 @@ body {
 #map {
 	width: 65%;
 	min-width: 300px;
-	height: 400px;
+	height: 500px;
 	display: inline-block;
 	float: left;
 	border: 1px solid #B17F1A;
@@ -15,7 +15,7 @@ body {
 #info-box {
 	width: 25%;
 	min-width: 250px;
-	height: 400px;
+	height: 500px;
 	float: left;
 	margin: 5px;
 	margin-top: 0px;
@@ -55,7 +55,7 @@ body {
 }
 
 #info-content {
-	height: 330px;
+	height: 430px;
 	width: 100%;
 	/*background-color: #F0F0F0;*/
 	opacity: 0.7;
@@ -120,7 +120,7 @@ body {
 
 #hours-chart {
 	width: 90%;
-	height: 190px;
+	height: 290px;
 	margin: 10px;
 }
 

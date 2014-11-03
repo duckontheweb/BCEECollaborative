@@ -11,35 +11,12 @@
 
 //Create elementary JSON object
 
-	//console.log(eehrs_total);
-	//}
+
 var mapModel, schoolPopup, map;
-
-// var hoverEvent = function (e) {
-
-// }
-
-// var clickEvent = function (e) {
-// 	mapModel.set("hoverSchool", e.layer.feature.properties.school);
-// 	mapModel.set("hoverDistrict", e.layer.feature.properties.district);
-// 	mapModel.set("totalStudents", e.layer.feature.properties.students_total);
-// 	mapModel.set("percentFRL", e.layer.feature.properties.percent_frl);
-// 	mapModel.set("percentPOC", e.layer.feature.properties.percent_poc);
-// 	mapModel.set("totalEE", e.layer.feature.properties.eehrs_total);
-// }
 
 var unhoverEvent = function () {
 	map.closePopup();
 }
-
-// var unhoverEvent = function () {
-// 	mapModel.set("hoverSchool", '');
-// 	mapModel.set("hoverDistrict", '');
-// 	mapModel.set("totalStudents", null);
-// 	mapModel.set("percentFRL", null);
-// 	mapModel.set("percentPOC", null);
-// 	mapModel.set("totalEE", null);
-// }
 
 var getColor = function (feature) {
 		return 	(feature.properties.eehrs_total > 168) ? '#006d2c' :
