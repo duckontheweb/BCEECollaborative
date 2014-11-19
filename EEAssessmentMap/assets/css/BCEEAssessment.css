@@ -173,3 +173,15 @@ body {
 	margin-bottom: 4px;
 	margin-left: 8px;
 }
+#popup-school {
+	margin-top: 1px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+#popup-info {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	color: gray;
+	text-align: center;
+}
