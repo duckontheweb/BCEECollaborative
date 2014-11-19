@@ -18,19 +18,19 @@ var unhoverEvent = function () {
 	map.closePopup();
 }
 
-var getColor = function (feature) {
-		return 	(feature.properties.eehrs_total > 168) ? '#006d2c' :
-				(feature.properties.eehrs_total > 126) ? '#2ca25f' :
-				(feature.properties.eehrs_total > 84) ? '#66c2a4' :
-				(feature.properties.eehrs_total > 42) ? '#b2e2e2' :
+var getColor = function (value) {
+		return 	(value > 160) ? '#006d2c' :
+				(value > 120) ? '#2ca25f' :
+				(value > 80) ? '#66c2a4' :
+				(value > 40) ? '#b2e2e2' :
 					'#edf8fb';
 }
 
 var getRadius = function (feature) {
-		return 	(feature.properties.eehrs_total > 168) ? 12 :
-				(feature.properties.eehrs_total > 126) ? 10 :
-				(feature.properties.eehrs_total > 84) ? 8 :
-				(feature.properties.eehrs_total > 42) ? 6 :
+		return 	(value > 160) ? 12 :
+				(value > 120) ? 10 :
+				(value > 80) ? 8 :
+				(value > 40) ? 6 :
 					4;
 }
 
