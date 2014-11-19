@@ -41,17 +41,19 @@ var MapView = Backbone.View.extend({
 		infoSettings.chartValues = tempValues;
 
 		//set model object
-	
-		self.model.set("infoData", infoSettings);
 		if ($(self.el).hasClass('map-wide')) {
 			$(self.el).removeClass('map-wide');
 			$(self.el).addClass('map-narrow');
 		}
+		setTimeout(function() {self.model.set("infoData", infoSettings)}, 50);
+		
 
 		newCenter = L.latLng(e.layer.feature.geometry.coordinates[1], e.layer.feature.geometry.coordinates[0])
 		currentZoom = map.getZoom
-		map.invalidateSize();
-		map.panTo(newCenter);
+		setTimeout(function() {
+			map.invalidateSize();
+			map.panTo(newCenter);
+		}, 200);
 
 	},
 
@@ -109,8 +111,8 @@ var MapView = Backbone.View.extend({
 
 		map = L.map('map', 
 			{
-	            center: [ 40.02130468739707, -105.21949768066406 ],
-	            zoom: 10,
+	            center: [ 40.06125658140471, -105.20370483398438 ],
+	            zoom: 11,
 	            maxZoom: 15,
 	            minZoom: 10,
 	            // maxBounds: theBounds,
