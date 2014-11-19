@@ -1,5 +1,5 @@
 var ChartView = Backbone.View.extend({
-	el: $('#hours-chart'),
+	el: '#hours-chart',
 
 
 	initialize: function () {
@@ -7,9 +7,14 @@ var ChartView = Backbone.View.extend({
 	},
 
 	render: function() {
-		var self = this;
 
-		$('#hours-chart').highcharts({
+		var self = this;
+		
+		var renderFunction = function () {
+			
+		}
+		setTimeout(function () {		
+		$(self.el).highcharts({
 			chart: {
 				type: 'column'
 			},
@@ -59,5 +64,6 @@ var ChartView = Backbone.View.extend({
 				}
 			}]
 		});
+		}, 600);
 	}
 })

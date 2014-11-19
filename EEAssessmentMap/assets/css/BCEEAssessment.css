@@ -3,21 +3,43 @@ body {
 }
 
 #map {
-	width: 685px;
+	/*width: 685px;*/
 	height: 490px;
 	display: inline-block;
 	float: left;
 	border: 1px solid #B17F1A;
+	-webkit-transition: width 0.5s;
+	transition: width 0.5s;
+}
+
+.map-wide {
+	width: 1000px;
+}
+
+.map-narrow {
+	width: 685px;
 }
 
 
 #info-box {
-	width: 300px;
+	/*width: 300px;*/
 	height: 490px;
 	float: left;
 	margin: 5px;
 	margin-top: 0px;
 	margin-right: 0px;
+	
+	-webkit-transition: width 0.5s;
+	transition: width 0.5s;
+}
+
+.info-inactive {
+	width: 0px;
+
+}
+
+.info-active {
+	width: 300px;
 	border: 1px solid #B17F1A;
 }
 
@@ -118,7 +140,7 @@ body {
 }
 
 #hours-chart {
-	width: 90%;
+	width: 290px;
 	height: 280px;
 	margin: 10px;
 }
@@ -133,7 +155,7 @@ body {
 
 #container {
 /*	margin: 10px auto;
-*/	width: 100%;
+*/	width: 1010;
 	height: 400px;
 }
 
