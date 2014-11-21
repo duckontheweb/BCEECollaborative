@@ -52,7 +52,7 @@ var MapView = Backbone.View.extend({
 		currentZoom = map.getZoom
 		setTimeout(function() {
 			map.invalidateSize();
-			map.panTo(newCenter);
+			map.panTo(newCenter, {duration: 0.75});
 		}, 200);
 
 	},
@@ -104,8 +104,8 @@ var MapView = Backbone.View.extend({
 		//instantiates map object with initial zoom, max zoom, min zoom, and center properties
 		
 		// Set max bounds
-		var southWest = L.latLng(39.7631584037253, -105.68984985351562),
-			northEast = L.latLng(40.27847797779299, -104.7491455078125);
+		var southWest = L.latLng(39.63001909803366, -106.051025390625),
+			northEast = L.latLng(40.52006312552015, -104.46075439453125);
 
 		var theBounds = L.latLngBounds(southWest, northEast);
 
@@ -115,7 +115,7 @@ var MapView = Backbone.View.extend({
 	            zoom: 11,
 	            maxZoom: 15,
 	            minZoom: 10,
-	            // maxBounds: theBounds,
+	            maxBounds: theBounds,
 	            // bounceAtZoomLimits: false
 	    });
 
