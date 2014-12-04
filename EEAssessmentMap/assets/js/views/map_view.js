@@ -60,7 +60,8 @@ var MapView = Backbone.View.extend({
 	activatePopup: function (e) {
 		
 		schoolPopup.setLatLng(e.latlng)
-			.setContent('<h4 id="popup-school">' + e.layer.feature.properties.school + '</h4><p id="popup-info">Click for more information...</p>')
+			.setContent('<h4 id="popup-school">' + e.layer.feature.properties.school + '</h4>' + 
+				'<p id="popup-hours"><em>Total Hours of EE:</em> ' + e.layer.feature.properties.eehrs_total + '</p>' + '<p id="popup-info">Click for more information...</p>')
 			.openOn(map);
 		
 	},

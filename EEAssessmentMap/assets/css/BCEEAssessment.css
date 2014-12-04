@@ -13,11 +13,11 @@ body {
 }
 
 .map-wide {
-	width: 980px;
+	width: 1020px;
 }
 
 .map-narrow {
-	width: 685px;
+	width: 715px;
 }
 
 
@@ -196,10 +196,15 @@ body {
 	margin-bottom: 4px;
 	margin-left: 8px;
 }
-#popup-school {
+
+#popup-school, #popup-hours {
 	margin-top: 1px;
 	margin-bottom: 2px;
 	text-align: center;
+}
+
+#popup-hours {
+	font-size: 11px;
 }
 
 #popup-info {
@@ -207,4 +212,5 @@ body {
 	margin-bottom: 1px;
 	color: gray;
 	text-align: center;
+	font-size: 11px;
 }
